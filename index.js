@@ -1,12 +1,26 @@
-const cool = require('cool-ascii-faces');
 const express = require('express')
+const bodyParser = require('body-parser');
+const auth = require('./auth');
 const path = require('path')
 const PORT = process.env.PORT || 3000
 
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
-  .get('/cool', (req, res) => res.send(cool()))
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
+const app = express();
+
+app.use(bodyParser.json());
+
+app.listen(PORT, () => console.log(`Listening over ${ PORT }`))
+
+// basic auth
+app
+  .post('/listener', function(req, res) {
+    console.log(JSON.stringify(req.body,null,"   "));
+    //console.log(JSON.stringify(req.body,null));
+    res.send("[accepted]");
+  })
+
+//express()
+//  .use(express.static(path.join(__dirname, 'public')))
+//  .set('views', path.join(__dirname, 'views'))
+//  .set('view engine', 'ejs')
+//  .get('/', (req, res) => res.render('pages/index'))
+//  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
