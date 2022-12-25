@@ -12,6 +12,7 @@ app.listen(PORT, () => console.log(`Listening over ${ PORT }`))
 
 // basic auth
 app
+  .use(auth)
   .post('/listener', function(req, res) {
     console.log(JSON.stringify(req.body,null,"   "));
     //console.log(JSON.stringify(req.body,null));
