@@ -14,6 +14,7 @@ app.listen(PORT, () => console.log(`Listening over ${ PORT }`))
 app
   .use(auth)
   .post('/listener', function(req, res) {
+    console.log(req.header);
     console.log(JSON.stringify(req.body,null,"   "));
     //console.log(JSON.stringify(req.body,null));
     res.send("[accepted]");
