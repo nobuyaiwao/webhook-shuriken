@@ -17,10 +17,6 @@ app
     console.log(req.header);
     console.log(JSON.stringify(req.body,null,"   "));
     //console.log(JSON.stringify(req.body,null));
-
-    // webhook mtls cert check
-    console.log(util.inspect(req.socket.getPeerCertificate(true), {colors: true}));
-
     res.send("[accepted]");
   })
 
