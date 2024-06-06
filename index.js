@@ -2,7 +2,6 @@ const express = require('express')
 const bodyParser = require('body-parser');
 const auth = require('./auth');
 const path = require('path')
-const utils = require('utils')._;
 const PORT = process.env.PORT || 3000
 
 const app = express();
@@ -18,11 +17,6 @@ app
     console.log(req.header);
     console.log(JSON.stringify(req.body,null,"   "));
     //console.log(JSON.stringify(req.body,null));
-
-    // webhook mtls cert check
-    // console.log(util.inspect(req.socket.getPeerCertificate(true), {colors: true}));
-    //req.socket.getPeerCertificate(true).raw.toString('base64');
-
     res.send("[accepted]");
   })
 
