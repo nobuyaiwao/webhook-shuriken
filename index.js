@@ -21,7 +21,7 @@ app
 
     // webhook mtls cert check
     // console.log(util.inspect(req.socket.getPeerCertificate(true), {colors: true}));
-    req.socket.getPeerCertificate(true).raw.toString('base64');
+    //req.socket.getPeerCertificate(true).raw.toString('base64');
 
     res.send("[accepted]");
   })
