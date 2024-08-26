@@ -33,14 +33,14 @@ https
   .createServer(
     {
       // ...
-      requestCert: true,
-      rejectUnauthorized: false,
+      //requestCert: true,
+      //rejectUnauthorized: false,
       //ca: fs.readFileSync('ca.crt'),
       // ...
     },
     app
   )
-  .listen(9443);
+  .listen(443);
 
 //express()
 //  .use(express.static(path.join(__dirname, 'public')))
