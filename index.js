@@ -14,6 +14,8 @@ app.listen(PORT, () => console.log(`Listening over ${ PORT }`))
 app
   .use(auth)
   .post('/listener', function(req, res) {
+    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+    console.log(`Request IP: ${ip}`);
     console.log(req.header);
     console.log(JSON.stringify(req.body,null,"   "));
     //console.log(JSON.stringify(req.body,null));
