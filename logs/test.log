@@ -1,0 +1,1500 @@
+2025-11-16T17:28:05.746824+00:00 app[web.1]: {
+2025-11-16T17:28:05.746824+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-16T17:28:05.746824+00:00 app[web.1]: "amount": {
+2025-11-16T17:28:05.746824+00:00 app[web.1]: "currency": "EUR",
+2025-11-16T17:28:05.746824+00:00 app[web.1]: "value": 0
+2025-11-16T17:28:05.746825+00:00 app[web.1]: },
+2025-11-16T17:28:05.746825+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-16T17:28:05.746825+00:00 app[web.1]: "eventDate": "2025-11-16T18:27:13+01:00",
+2025-11-16T17:28:05.746825+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-16T17:28:05.746825+00:00 app[web.1]: "merchantReference": "",
+2025-11-16T17:28:05.746826+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-16T17:28:05.746826+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_16.csv",
+2025-11-16T17:28:05.746826+00:00 app[web.1]: "success": "true"
+2025-11-16T17:28:05.746827+00:00 app[web.1]: }
+2025-11-16T17:28:05.746827+00:00 app[web.1]: }
+2025-11-16T17:28:05.746827+00:00 app[web.1]: ]
+2025-11-16T17:28:05.746827+00:00 app[web.1]: }
+2025-11-16T17:35:32.797090+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-16T17:35:32.797148+00:00 app[web.1]: [Function: header]
+2025-11-16T17:35:32.797176+00:00 app[web.1]: {
+2025-11-16T17:35:32.797176+00:00 app[web.1]: "live": "true",
+2025-11-16T17:35:32.797176+00:00 app[web.1]: "notificationItems": [
+2025-11-16T17:35:32.797176+00:00 app[web.1]: {
+2025-11-16T17:35:32.797178+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-16T17:35:32.797178+00:00 app[web.1]: "amount": {
+2025-11-16T17:35:32.797179+00:00 app[web.1]: "currency": "EUR",
+2025-11-16T17:35:32.797179+00:00 app[web.1]: "value": 0
+2025-11-16T17:35:32.797179+00:00 app[web.1]: },
+2025-11-16T17:35:32.797179+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-16T17:35:32.797180+00:00 app[web.1]: "eventDate": "2025-11-16T18:35:15+01:00",
+2025-11-16T17:35:32.797180+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-16T17:35:32.797181+00:00 app[web.1]: "merchantReference": "",
+2025-11-16T17:35:32.797182+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:32.797183+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:32.797183+00:00 app[web.1]: "success": "true"
+2025-11-16T17:35:32.797183+00:00 app[web.1]: }
+2025-11-16T17:35:32.797183+00:00 app[web.1]: }
+2025-11-16T17:35:32.797183+00:00 app[web.1]: ]
+2025-11-16T17:35:32.797183+00:00 app[web.1]: }
+2025-11-16T17:35:32.797761+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=ba96286a-dc01-783f-56b0-1b605a269496 fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-16T17:35:33.158052+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-16T17:35:33.158105+00:00 app[web.1]: [Function: header]
+2025-11-16T17:35:33.158136+00:00 app[web.1]: {
+2025-11-16T17:35:33.158136+00:00 app[web.1]: "live": "true",
+2025-11-16T17:35:33.158137+00:00 app[web.1]: "notificationItems": [
+2025-11-16T17:35:33.158137+00:00 app[web.1]: {
+2025-11-16T17:35:33.158137+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-16T17:35:33.158137+00:00 app[web.1]: "amount": {
+2025-11-16T17:35:33.158138+00:00 app[web.1]: "currency": "EUR",
+2025-11-16T17:35:33.158138+00:00 app[web.1]: "value": 0
+2025-11-16T17:35:33.158138+00:00 app[web.1]: },
+2025-11-16T17:35:33.158138+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-16T17:35:33.158139+00:00 app[web.1]: "eventDate": "2025-11-16T18:35:15+01:00",
+2025-11-16T17:35:33.158140+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-16T17:35:33.158140+00:00 app[web.1]: "merchantReference": "",
+2025-11-16T17:35:33.158141+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.158147+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.158147+00:00 app[web.1]: "success": "true"
+2025-11-16T17:35:33.158147+00:00 app[web.1]: }
+2025-11-16T17:35:33.158147+00:00 app[web.1]: }
+2025-11-16T17:35:33.158148+00:00 app[web.1]: ]
+2025-11-16T17:35:33.158148+00:00 app[web.1]: }
+2025-11-16T17:35:33.158556+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=ab35cd6f-ec37-370a-27d5-2978cc9bec99 fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-16T17:35:33.296942+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-16T17:35:33.297042+00:00 app[web.1]: [Function: header]
+2025-11-16T17:35:33.297068+00:00 app[web.1]: {
+2025-11-16T17:35:33.297068+00:00 app[web.1]: "live": "true",
+2025-11-16T17:35:33.297068+00:00 app[web.1]: "notificationItems": [
+2025-11-16T17:35:33.297069+00:00 app[web.1]: {
+2025-11-16T17:35:33.297069+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-16T17:35:33.297069+00:00 app[web.1]: "amount": {
+2025-11-16T17:35:33.297070+00:00 app[web.1]: "currency": "EUR",
+2025-11-16T17:35:33.297070+00:00 app[web.1]: "value": 0
+2025-11-16T17:35:33.297071+00:00 app[web.1]: },
+2025-11-16T17:35:33.297071+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-16T17:35:33.297071+00:00 app[web.1]: "eventDate": "2025-11-16T18:35:15+01:00",
+2025-11-16T17:35:33.297071+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-16T17:35:33.297072+00:00 app[web.1]: "merchantReference": "",
+2025-11-16T17:35:33.297072+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.297072+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_POS_JP/received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.297073+00:00 app[web.1]: "success": "true"
+2025-11-16T17:35:33.297073+00:00 app[web.1]: }
+2025-11-16T17:35:33.297073+00:00 app[web.1]: }
+2025-11-16T17:35:33.297073+00:00 app[web.1]: ]
+2025-11-16T17:35:33.297074+00:00 app[web.1]: }
+2025-11-16T17:35:33.297416+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=079fe83d-5167-1a72-c344-2498f57c0eef fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-16T17:35:33.412015+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-16T17:35:33.412068+00:00 app[web.1]: [Function: header]
+2025-11-16T17:35:33.412096+00:00 app[web.1]: {
+2025-11-16T17:35:33.412096+00:00 app[web.1]: "live": "true",
+2025-11-16T17:35:33.412096+00:00 app[web.1]: "notificationItems": [
+2025-11-16T17:35:33.412097+00:00 app[web.1]: {
+2025-11-16T17:35:33.412097+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-16T17:35:33.412097+00:00 app[web.1]: "amount": {
+2025-11-16T17:35:33.412097+00:00 app[web.1]: "currency": "EUR",
+2025-11-16T17:35:33.412097+00:00 app[web.1]: "value": 0
+2025-11-16T17:35:33.412098+00:00 app[web.1]: },
+2025-11-16T17:35:33.412098+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-16T17:35:33.412098+00:00 app[web.1]: "eventDate": "2025-11-16T18:35:15+01:00",
+2025-11-16T17:35:33.412099+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-16T17:35:33.412099+00:00 app[web.1]: "merchantReference": "",
+2025-11-16T17:35:33.412099+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.412100+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/received_payments_report_2025_11_16.csv",
+2025-11-16T17:35:33.412100+00:00 app[web.1]: "success": "true"
+2025-11-16T17:35:33.412100+00:00 app[web.1]: }
+2025-11-16T17:35:33.412100+00:00 app[web.1]: }
+2025-11-16T17:35:33.412100+00:00 app[web.1]: ]
+2025-11-16T17:35:33.412100+00:00 app[web.1]: }
+2025-11-16T17:35:33.412523+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=437f16ca-7dab-26c8-9db1-b1e372432f62 fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-16T18:08:18.396436+00:00 heroku[web.1]: Idling
+2025-11-16T18:08:18.454103+00:00 heroku[web.1]: State changed from up to down
+2025-11-16T18:08:19.083063+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-16T18:08:19.145076+00:00 heroku[web.1]: Process exited with status 143
+2025-11-17T02:50:21.672988+00:00 heroku[web.1]: Unidling
+2025-11-17T02:50:21.725640+00:00 heroku[web.1]: State changed from down to starting
+2025-11-17T02:50:23.484975+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-17T02:50:24.393331+00:00 app[web.1]: 
+2025-11-17T02:50:24.393343+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-17T02:50:24.393344+00:00 app[web.1]: > node index.js
+2025-11-17T02:50:24.393344+00:00 app[web.1]: 
+2025-11-17T02:50:24.490330+00:00 app[web.1]: Listening over 44904
+2025-11-17T02:50:24.561350+00:00 heroku[web.1]: State changed from starting to up
+2025-11-17T02:50:25.819506+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T02:50:25.820363+00:00 app[web.1]: [Function: header]
+2025-11-17T02:50:25.820417+00:00 app[web.1]: {
+2025-11-17T02:50:25.820417+00:00 app[web.1]: "live": "false",
+2025-11-17T02:50:25.820417+00:00 app[web.1]: "notificationItems": [
+2025-11-17T02:50:25.820417+00:00 app[web.1]: {
+2025-11-17T02:50:25.820418+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T02:50:25.820418+00:00 app[web.1]: "amount": {
+2025-11-17T02:50:25.820418+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T02:50:25.820418+00:00 app[web.1]: "value": 0
+2025-11-17T02:50:25.820419+00:00 app[web.1]: },
+2025-11-17T02:50:25.820419+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T02:50:25.820419+00:00 app[web.1]: "eventDate": "2025-11-17T03:48:53+01:00",
+2025-11-17T02:50:25.820420+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T02:50:25.820420+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T02:50:25.820420+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-17T02:50:25.820421+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_16.csv",
+2025-11-17T02:50:25.820421+00:00 app[web.1]: "success": "true"
+2025-11-17T02:50:25.820421+00:00 app[web.1]: }
+2025-11-17T02:50:25.820421+00:00 app[web.1]: }
+2025-11-17T02:50:25.820422+00:00 app[web.1]: ]
+2025-11-17T02:50:25.820422+00:00 app[web.1]: }
+2025-11-17T02:50:25.822941+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=ab61555b-adf4-1371-d5ca-1a22e5c6a736 fwd="147.12.16.11" dyno=web.1 connect=4161ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T02:50:25.909798+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T02:50:25.909855+00:00 app[web.1]: [Function: header]
+2025-11-17T02:50:25.909889+00:00 app[web.1]: {
+2025-11-17T02:50:25.909890+00:00 app[web.1]: "live": "false",
+2025-11-17T02:50:25.909890+00:00 app[web.1]: "notificationItems": [
+2025-11-17T02:50:25.909890+00:00 app[web.1]: {
+2025-11-17T02:50:25.909890+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T02:50:25.909891+00:00 app[web.1]: "amount": {
+2025-11-17T02:50:25.909891+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T02:50:25.909891+00:00 app[web.1]: "value": 0
+2025-11-17T02:50:25.909891+00:00 app[web.1]: },
+2025-11-17T02:50:25.909891+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T02:50:25.909892+00:00 app[web.1]: "eventDate": "2025-11-17T03:48:59+01:00",
+2025-11-17T02:50:25.909892+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T02:50:25.909893+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T02:50:25.909893+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-17T02:50:25.909894+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_16.csv",
+2025-11-17T02:50:25.909894+00:00 app[web.1]: "success": "true"
+2025-11-17T02:50:25.909894+00:00 app[web.1]: }
+2025-11-17T02:50:25.909895+00:00 app[web.1]: }
+2025-11-17T02:50:25.909895+00:00 app[web.1]: ]
+2025-11-17T02:50:25.909895+00:00 app[web.1]: }
+2025-11-17T02:50:25.910604+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=c9409b06-6104-a3ef-0dba-aaa9eecf4244 fwd="147.12.16.11" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T03:04:32.681028+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T03:04:32.681155+00:00 app[web.1]: [Function: header]
+2025-11-17T03:04:32.681203+00:00 app[web.1]: {
+2025-11-17T03:04:32.681203+00:00 app[web.1]: "live": "false",
+2025-11-17T03:04:32.681203+00:00 app[web.1]: "notificationItems": [
+2025-11-17T03:04:32.681204+00:00 app[web.1]: {
+2025-11-17T03:04:32.681205+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T03:04:32.681205+00:00 app[web.1]: "additionalData": {
+2025-11-17T03:04:32.681206+00:00 app[web.1]: "hmacSignature": "QKSQOSPWO6RD4bpgG48xE+4PLbWxQTjE+GR26wA/5cE="
+2025-11-17T03:04:32.681206+00:00 app[web.1]: },
+2025-11-17T03:04:32.681207+00:00 app[web.1]: "amount": {
+2025-11-17T03:04:32.681207+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T03:04:32.681208+00:00 app[web.1]: "value": 0
+2025-11-17T03:04:32.681208+00:00 app[web.1]: },
+2025-11-17T03:04:32.681208+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T03:04:32.681209+00:00 app[web.1]: "eventDate": "2025-11-17T04:03:23+01:00",
+2025-11-17T03:04:32.681209+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T03:04:32.681209+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T03:04:32.681210+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:04:32.681211+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:04:32.681211+00:00 app[web.1]: "success": "true"
+2025-11-17T03:04:32.681211+00:00 app[web.1]: }
+2025-11-17T03:04:32.681211+00:00 app[web.1]: }
+2025-11-17T03:04:32.681211+00:00 app[web.1]: ]
+2025-11-17T03:04:32.681211+00:00 app[web.1]: }
+2025-11-17T03:04:32.681877+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=10f205e8-7248-b10c-1caa-0c68c0f25252 fwd="147.12.16.11" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T03:09:09.898351+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T03:09:09.898403+00:00 app[web.1]: [Function: header]
+2025-11-17T03:09:09.898433+00:00 app[web.1]: {
+2025-11-17T03:09:09.898433+00:00 app[web.1]: "live": "true",
+2025-11-17T03:09:09.898433+00:00 app[web.1]: "notificationItems": [
+2025-11-17T03:09:09.898434+00:00 app[web.1]: {
+2025-11-17T03:09:09.898435+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T03:09:09.898435+00:00 app[web.1]: "amount": {
+2025-11-17T03:09:09.898435+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T03:09:09.898435+00:00 app[web.1]: "value": 0
+2025-11-17T03:09:09.898436+00:00 app[web.1]: },
+2025-11-17T03:09:09.898436+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T03:09:09.898437+00:00 app[web.1]: "eventDate": "2025-11-17T04:09:00+01:00",
+2025-11-17T03:09:09.898437+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T03:09:09.898437+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T03:09:09.898438+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:09.898439+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:09.898440+00:00 app[web.1]: "success": "true"
+2025-11-17T03:09:09.898440+00:00 app[web.1]: }
+2025-11-17T03:09:09.898440+00:00 app[web.1]: }
+2025-11-17T03:09:09.898440+00:00 app[web.1]: ]
+2025-11-17T03:09:09.898440+00:00 app[web.1]: }
+2025-11-17T03:09:09.899159+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=0e4c74a7-290c-a24e-625d-d810d4163c27 fwd="82.199.90.162" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T03:09:10.481831+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T03:09:10.481879+00:00 app[web.1]: [Function: header]
+2025-11-17T03:09:10.481970+00:00 app[web.1]: {
+2025-11-17T03:09:10.481970+00:00 app[web.1]: "live": "true",
+2025-11-17T03:09:10.481970+00:00 app[web.1]: "notificationItems": [
+2025-11-17T03:09:10.481971+00:00 app[web.1]: {
+2025-11-17T03:09:10.481971+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T03:09:10.481971+00:00 app[web.1]: "amount": {
+2025-11-17T03:09:10.481971+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T03:09:10.481972+00:00 app[web.1]: "value": 0
+2025-11-17T03:09:10.481972+00:00 app[web.1]: },
+2025-11-17T03:09:10.481972+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T03:09:10.481972+00:00 app[web.1]: "eventDate": "2025-11-17T04:09:00+01:00",
+2025-11-17T03:09:10.481973+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T03:09:10.481973+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T03:09:10.481973+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:10.481974+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:10.481974+00:00 app[web.1]: "success": "true"
+2025-11-17T03:09:10.481974+00:00 app[web.1]: }
+2025-11-17T03:09:10.481974+00:00 app[web.1]: }
+2025-11-17T03:09:10.481974+00:00 app[web.1]: ]
+2025-11-17T03:09:10.481975+00:00 app[web.1]: }
+2025-11-17T03:09:10.482604+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=1ddb79bb-6446-ace1-6ada-b7d4d5c14903 fwd="82.199.90.162" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T03:09:11.280577+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T03:09:11.280628+00:00 app[web.1]: [Function: header]
+2025-11-17T03:09:11.280660+00:00 app[web.1]: {
+2025-11-17T03:09:11.280660+00:00 app[web.1]: "live": "true",
+2025-11-17T03:09:11.280660+00:00 app[web.1]: "notificationItems": [
+2025-11-17T03:09:11.280660+00:00 app[web.1]: {
+2025-11-17T03:09:11.280661+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T03:09:11.280662+00:00 app[web.1]: "amount": {
+2025-11-17T03:09:11.280662+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T03:09:11.280662+00:00 app[web.1]: "value": 0
+2025-11-17T03:09:11.280662+00:00 app[web.1]: },
+2025-11-17T03:09:11.280662+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T03:09:11.280663+00:00 app[web.1]: "eventDate": "2025-11-17T04:09:00+01:00",
+2025-11-17T03:09:11.280663+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-17T03:09:11.280663+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T03:09:11.280664+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:11.280664+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/exchange_rate_report_2025_11_16.csv",
+2025-11-17T03:09:11.280665+00:00 app[web.1]: "success": "true"
+2025-11-17T03:09:11.280665+00:00 app[web.1]: }
+2025-11-17T03:09:11.280665+00:00 app[web.1]: }
+2025-11-17T03:09:11.280665+00:00 app[web.1]: ]
+2025-11-17T03:09:11.280665+00:00 app[web.1]: }
+2025-11-17T03:09:11.281301+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=6435ef9b-54c6-a0e4-f3e6-7512b23c1a39 fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T03:44:47.881350+00:00 heroku[web.1]: Idling
+2025-11-17T03:44:47.884292+00:00 heroku[web.1]: State changed from up to down
+2025-11-17T03:44:48.536467+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-17T03:44:48.613748+00:00 heroku[web.1]: Process exited with status 143
+2025-11-17T07:04:51.501569+00:00 heroku[web.1]: Unidling
+2025-11-17T07:04:51.556577+00:00 heroku[web.1]: State changed from down to starting
+2025-11-17T07:04:53.171991+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-17T07:04:54.140857+00:00 app[web.1]: 
+2025-11-17T07:04:54.140880+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-17T07:04:54.140881+00:00 app[web.1]: > node index.js
+2025-11-17T07:04:54.140881+00:00 app[web.1]: 
+2025-11-17T07:04:54.241130+00:00 app[web.1]: Listening over 57711
+2025-11-17T07:04:54.287502+00:00 heroku[web.1]: State changed from starting to up
+2025-11-17T07:04:56.151297+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T07:04:56.152260+00:00 app[web.1]: [Function: header]
+2025-11-17T07:04:56.152325+00:00 app[web.1]: {
+2025-11-17T07:04:56.152325+00:00 app[web.1]: "live": "true",
+2025-11-17T07:04:56.152326+00:00 app[web.1]: "notificationItems": [
+2025-11-17T07:04:56.152326+00:00 app[web.1]: {
+2025-11-17T07:04:56.152326+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T07:04:56.152327+00:00 app[web.1]: "additionalData": {
+2025-11-17T07:04:56.152327+00:00 app[web.1]: "expiryDate": "07/2026",
+2025-11-17T07:04:56.152328+00:00 app[web.1]: "riskdata.cvcFieldLog": "fo@187,KN@227,KN@228,KN@233",
+2025-11-17T07:04:56.152329+00:00 app[web.1]: "riskdata.numberFieldKeyCount": "16",
+2025-11-17T07:04:56.152330+00:00 app[web.1]: "fraudResultType": "AMBER",
+2025-11-17T07:04:56.152330+00:00 app[web.1]: "cardSummary": "7661",
+2025-11-17T07:04:56.152330+00:00 app[web.1]: "fraudManualReview": "true",
+2025-11-17T07:04:56.152330+00:00 app[web.1]: "fraudCheck-82-CustomFieldCheck-lt100": "0",
+2025-11-17T07:04:56.152330+00:00 app[web.1]: "riskdata.numberFieldFocusCount": "1",
+2025-11-17T07:04:56.152331+00:00 app[web.1]: "riskdata.numberFieldClickCount": "1",
+2025-11-17T07:04:56.152331+00:00 app[web.1]: "totalFraudScore": "0",
+2025-11-17T07:04:56.152332+00:00 app[web.1]: "riskdata.referrer": "https://checkoutshopper-live.adyen.com/checkoutshopper/securedfields/live_SC4Q3PCBLNCSDGBJCYOEX4UVRE5PNGSS/5.5.2/securedFields.html?type=card&d=aHR0cHM6Ly9sb2NhbGhvc3Q=",
+2025-11-17T07:04:56.152333+00:00 app[web.1]: "riskdata.numberFieldLog": "fo@41,cl@42,KN@48,KN@50,KN@52,KN@53,KN@64,KN@66,KN@69,KN@70,KN@84,KN@87,KN@88,KN@89,KN@97,KN@101,KN@102,KN@103"
+2025-11-17T07:04:56.152334+00:00 app[web.1]: },
+2025-11-17T07:04:56.152334+00:00 app[web.1]: "amount": {
+2025-11-17T07:04:56.152334+00:00 app[web.1]: "currency": "JPY",
+2025-11-17T07:04:56.152334+00:00 app[web.1]: "value": 10
+2025-11-17T07:04:56.152334+00:00 app[web.1]: },
+2025-11-17T07:04:56.152334+00:00 app[web.1]: "eventCode": "AUTHORISATION",
+2025-11-17T07:04:56.152335+00:00 app[web.1]: "eventDate": "2025-11-17T08:04:37+01:00",
+2025-11-17T07:04:56.152335+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-17T07:04:56.152335+00:00 app[web.1]: "merchantReference": "20251117-JlW81vrPq6",
+2025-11-17T07:04:56.152335+00:00 app[web.1]: "paymentMethod": "mc",
+2025-11-17T07:04:56.152335+00:00 app[web.1]: "pspReference": "FH7MRTD9HQQR7CR4",
+2025-11-17T07:04:56.152336+00:00 app[web.1]: "reason": "3D Not Authenticated",
+2025-11-17T07:04:56.152336+00:00 app[web.1]: "success": "false"
+2025-11-17T07:04:56.152336+00:00 app[web.1]: }
+2025-11-17T07:04:56.152336+00:00 app[web.1]: }
+2025-11-17T07:04:56.152336+00:00 app[web.1]: ]
+2025-11-17T07:04:56.152336+00:00 app[web.1]: }
+2025-11-17T07:04:56.154988+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=796f8f76-0f0a-072a-610f-f42e3caf510b fwd="82.199.90.163" dyno=web.1 connect=4655ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T07:09:41.266812+00:00 app[web.1]: Request IP: 85.184.229.11
+2025-11-17T07:09:41.266887+00:00 app[web.1]: [Function: header]
+2025-11-17T07:09:41.266951+00:00 app[web.1]: {
+2025-11-17T07:09:41.266951+00:00 app[web.1]: "live": "true",
+2025-11-17T07:09:41.266951+00:00 app[web.1]: "notificationItems": [
+2025-11-17T07:09:41.266951+00:00 app[web.1]: {
+2025-11-17T07:09:41.266953+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T07:09:41.266953+00:00 app[web.1]: "additionalData": {
+2025-11-17T07:09:41.266955+00:00 app[web.1]: "riskdata.cvcFieldLog": "fo@546,KN@566,KN@575,KN@581,KN@585,Kb@592,Kb@594,ch@647,bl@647,fo@1393,Kb@1403,Kb@1404,Kb@1406,Kb@1407,KN@1433,KN@1435,KN@1436",
+2025-11-17T07:09:41.266956+00:00 app[web.1]: "refusalReasonRaw": "00 : Approved or completed successfully",
+2025-11-17T07:09:41.266956+00:00 app[web.1]: "eci": "05",
+2025-11-17T07:09:41.266957+00:00 app[web.1]: "threeDSVersion": "2.2.0",
+2025-11-17T07:09:41.266957+00:00 app[web.1]: "acquirerAccountCode": "AdyenVisa_JP_418889_PME_ECOM_DMS",
+2025-11-17T07:09:41.266958+00:00 app[web.1]: "riskdata.numberFieldKeyCount": "72",
+2025-11-17T07:09:41.266962+00:00 app[web.1]: "payout.payoutEligibility": "{\"PayoutEligibility\":{\"fundsDisbursements\":{\"eligibility\":\"domestic\",\"fundsAvailability\":\"domestic\"},\"gambling\":{\"eligibility\":\"none\",\"fundsAvailability\":\"none\"},\"moneyTransfer\":{\"eligibility\":\"domestic\",\"fundsAvailability\":\"domestic\"}}}",
+2025-11-17T07:09:41.266963+00:00 app[web.1]: "threeDAuthenticated": "true",
+2025-11-17T07:09:41.266963+00:00 app[web.1]: "issuerBin": "46496700",
+2025-11-17T07:09:41.266964+00:00 app[web.1]: "riskdata.referrer": "https://checkoutshopper-live.adyen.com/checkoutshopper/securedfields/live_SC4Q3PCBLNCSDGBJCYOEX4UVRE5PNGSS/5.5.2/securedFields.html?type=card&d=aHR0cHM6Ly9sb2NhbGhvc3Q=",
+2025-11-17T07:09:41.266964+00:00 app[web.1]: "retry.attempt1.networkTokenOffered": "false",
+2025-11-17T07:09:41.266964+00:00 app[web.1]: "fraudManualReview": "true",
+2025-11-17T07:09:41.266965+00:00 app[web.1]: "threeDOffered": "true",
+2025-11-17T07:09:41.266965+00:00 app[web.1]: "threeDOfferedResponse": "C",
+2025-11-17T07:09:41.266965+00:00 app[web.1]: "authorisationMid": "418889000200018",
+2025-11-17T07:09:41.266965+00:00 app[web.1]: "riskdata.numberFieldFocusCount": "2",
+2025-11-17T07:09:41.266965+00:00 app[web.1]: "cavv": "AAUDBWiSCAAAAAAKOSMhdQAAAAA=",
+2025-11-17T07:09:41.266966+00:00 app[web.1]: "authorisedAmountCurrency": "JPY",
+2025-11-17T07:09:41.266966+00:00 app[web.1]: "threeDAuthenticatedResponse": "Y",
+2025-11-17T07:09:41.266966+00:00 app[web.1]: "dsTransID": "e07b3723-4c49-41c7-8cb1-6856bdddfd4f",
+2025-11-17T07:09:41.266967+00:00 app[web.1]: "retry.attempt1.rawResponse": "00 : Approved or completed successfully",
+2025-11-17T07:09:41.266967+00:00 app[web.1]: "recurring.shopperReference": "joakim02",
+2025-11-17T07:09:41.266967+00:00 app[web.1]: "fundingSource": "DEBIT",
+2025-11-17T07:09:41.266967+00:00 app[web.1]: "avsResult": "0 Unknown",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "cardSummary": "9173",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "retry.attempt1.avsResultRaw": " ",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "networkTxReference": "465321257799303",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "totalFraudScore": "0",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "expiryDate": "03/2029",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "riskdata.numberFieldUnknownKeys": "9@211",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "cardBin": "464967",
+2025-11-17T07:09:41.266968+00:00 app[web.1]: "fraudCheck--1-Pre-Auth-Risk-Total": "0",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "cvcResultRaw": "M",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "riskdata.numberFieldClickCount": "5",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "merchantReference": "20251117-jylw3p3i13",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "acquirerReference": "532107670387",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "liabilityShift": "true",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "authCode": "592070",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "fraudResultType": "AMBER",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "isCardCommercial": "false",
+2025-11-17T07:09:41.266969+00:00 app[web.1]: "PaymentAccountReference": "V0010013819224603369582578242",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "retry.attempt1.acquirerAccount": "AdyenVisa_JP_418889_PME_ECOM_DMS",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "cardIssuingBank": "RAKUTEN BANK  LTD.",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "retry.attempt1.acquirer": "AdyenVisa_JP_418889",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "tokenization.shopperReference": "joakim02",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "authorisedAmountValue": "10",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "riskdata.numberFieldBlurCount": "1",
+2025-11-17T07:09:41.266970+00:00 app[web.1]: "issuerCountry": "JP",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "cvcResult": "1 Matches",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "retry.attempt1.responseCode": "Approved",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "refusalCodeRaw": "00",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "cardProductId": "F",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "retry.attempt1.shopperInteraction": "Ecommerce",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "cardFunction": "Consumer",
+2025-11-17T07:09:41.266971+00:00 app[web.1]: "acquirerCode": "AdyenVisa_JP_418889",
+2025-11-17T07:09:41.266976+00:00 app[web.1]: "riskdata.numberFieldLog": "fo@100,cl@101,KN@121,KN@123,KN@127,KN@129,KN@154,KN@155,KN@157,KN@158,KN@177,KN@178,KN@183,KN@184,KN@199,KN@200,KN@205,KN@206,KU@211,ch@211,bl@211,fo@658,cl@659,cl@660,cl@661,Kb@666,KN@681,KN@683,KN@688,KN@689,Kb@697,Md@699,KL@699,Kb@700,KN@764,KN@767,KN@769,KN@770,KN@770,Kb@776,Kb@779,Kb@780,Kb@781,Kb@782,Kb@784,Kb@785,KN@787,KN@788,KN@796,KN@802,KN@811,KN@813,KN@815,KN@845,KN@849,KN@854,KN@884,KN@887,KN@891,KN@892,KN@897,Md@905,KL@906,Kb@907,cl@1092,KN@1220,KN@1224,KN@1230,KN@1233,KN@1317,KN@1319,KN@1324,KN@1326,KN@1343,KN@1345,KN@1347,KN@1348,KN@1368,KN@1369,KN@1372,KN@1373"
+2025-11-17T07:09:41.266976+00:00 app[web.1]: },
+2025-11-17T07:09:41.266976+00:00 app[web.1]: "amount": {
+2025-11-17T07:09:41.266976+00:00 app[web.1]: "currency": "JPY",
+2025-11-17T07:09:41.266976+00:00 app[web.1]: "value": 10
+2025-11-17T07:09:41.266976+00:00 app[web.1]: },
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "eventCode": "AUTHORISATION",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "eventDate": "2025-11-17T08:09:39+01:00",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "merchantReference": "20251117-jylw3p3i13",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "operations": [
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "CANCEL",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "CAPTURE",
+2025-11-17T07:09:41.266977+00:00 app[web.1]: "REFUND"
+2025-11-17T07:09:41.266978+00:00 app[web.1]: ],
+2025-11-17T07:09:41.266978+00:00 app[web.1]: "paymentMethod": "visa",
+2025-11-17T07:09:41.266978+00:00 app[web.1]: "pspReference": "VNJMMCCJ42B6N6W4",
+2025-11-17T07:09:41.266978+00:00 app[web.1]: "reason": "592070:9173:03/2029",
+2025-11-17T07:09:41.266978+00:00 app[web.1]: "success": "true"
+2025-11-17T07:09:41.266978+00:00 app[web.1]: }
+2025-11-17T07:09:41.266978+00:00 app[web.1]: }
+2025-11-17T07:09:41.266979+00:00 app[web.1]: ]
+2025-11-17T07:09:41.266979+00:00 app[web.1]: }
+2025-11-17T07:09:41.267648+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=f604aaa7-e761-a166-007f-cbcd04b98df5 fwd="85.184.229.11" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T07:16:58.028151+00:00 app[web.1]: Request IP: 85.184.229.10
+2025-11-17T07:16:58.028216+00:00 app[web.1]: [Function: header]
+2025-11-17T07:16:58.028331+00:00 app[web.1]: {
+2025-11-17T07:16:58.028332+00:00 app[web.1]: "live": "true",
+2025-11-17T07:16:58.028332+00:00 app[web.1]: "notificationItems": [
+2025-11-17T07:16:58.028332+00:00 app[web.1]: {
+2025-11-17T07:16:58.028333+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T07:16:58.028333+00:00 app[web.1]: "additionalData": {
+2025-11-17T07:16:58.028335+00:00 app[web.1]: "riskdata.cvcFieldLog": "fo@125,bl@133,fo@152,KN@198,KN@199,KN@201",
+2025-11-17T07:16:58.028336+00:00 app[web.1]: "refusalReasonRaw": "00 : Approved or completed successfully",
+2025-11-17T07:16:58.028336+00:00 app[web.1]: "eci": "05",
+2025-11-17T07:16:58.028336+00:00 app[web.1]: "threeDSVersion": "2.2.0",
+2025-11-17T07:16:58.028337+00:00 app[web.1]: "acquirerAccountCode": "AdyenVisa_JP_418889_PME_POS_JP_DMS",
+2025-11-17T07:16:58.028337+00:00 app[web.1]: "riskdata.numberFieldKeyCount": "23",
+2025-11-17T07:16:58.028341+00:00 app[web.1]: "payout.payoutEligibility": "{\"PayoutEligibility\":{\"fundsDisbursements\":{\"eligibility\":\"both\",\"fundsAvailability\":\"both\"},\"gambling\":{\"eligibility\":\"both\",\"fundsAvailability\":\"both\"},\"moneyTransfer\":{\"eligibility\":\"both\",\"fundsAvailability\":\"both\"}}}",
+2025-11-17T07:16:58.028341+00:00 app[web.1]: "threeDAuthenticated": "true",
+2025-11-17T07:16:58.028341+00:00 app[web.1]: "issuerBin": "42994165",
+2025-11-17T07:16:58.028342+00:00 app[web.1]: "riskdata.referrer": "https://checkoutshopper-live.adyen.com/checkoutshopper/securedfields/live_SC4Q3PCBLNCSDGBJCYOEX4UVRE5PNGSS/5.5.2/securedFields.html?type=card&d=aHR0cHM6Ly9sb2NhbGhvc3Q=",
+2025-11-17T07:16:58.028343+00:00 app[web.1]: "retry.attempt1.networkTokenOffered": "false",
+2025-11-17T07:16:58.028343+00:00 app[web.1]: "fraudManualReview": "true",
+2025-11-17T07:16:58.028343+00:00 app[web.1]: "threeDOffered": "true",
+2025-11-17T07:16:58.028343+00:00 app[web.1]: "threeDOfferedResponse": "C",
+2025-11-17T07:16:58.028343+00:00 app[web.1]: "authorisationMid": "418889000200133",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "riskdata.numberFieldFocusCount": "1",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "cavv": "AAcBACUYRgAAAAAKOSMhdQI1iDU=",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "authorisedAmountCurrency": "JPY",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "threeDAuthenticatedResponse": "Y",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "dsTransID": "703cd1bf-d750-4c19-933a-0487b13d95bd",
+2025-11-17T07:16:58.028344+00:00 app[web.1]: "retry.attempt1.rawResponse": "00 : Approved or completed successfully",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "recurring.shopperReference": "joakim02",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "fundingSource": "DEBIT",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "avsResult": "0 Unknown",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "cardSummary": "7400",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "retry.attempt1.avsResultRaw": " ",
+2025-11-17T07:16:58.028345+00:00 app[web.1]: "networkTxReference": "345321262168562",
+2025-11-17T07:16:58.028346+00:00 app[web.1]: "totalFraudScore": "0",
+2025-11-17T07:16:58.028346+00:00 app[web.1]: "expiryDate": "02/2027",
+2025-11-17T07:16:58.028346+00:00 app[web.1]: "cardBin": "429941",
+2025-11-17T07:16:58.028346+00:00 app[web.1]: "fraudCheck--1-Pre-Auth-Risk-Total": "0",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "cvcResultRaw": "M",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "riskdata.numberFieldClickCount": "1",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "merchantReference": "20251117-hgNzF50YqQ",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "acquirerReference": "532107488542",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "liabilityShift": "true",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "authCode": "006895",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "fraudResultType": "AMBER",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "isCardCommercial": "false",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "PaymentAccountReference": "V0010013021066428973421523527",
+2025-11-17T07:16:58.028347+00:00 app[web.1]: "retry.attempt1.acquirerAccount": "AdyenVisa_JP_418889_PME_POS_JP_DMS",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "cardIssuingBank": "Norwegian Visa-Bankgroup",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "retry.attempt1.acquirer": "AdyenVisa_JP_418889",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "tokenization.shopperReference": "joakim02",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "authorisedAmountValue": "10",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "issuerCountry": "NO",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "cvcResult": "1 Matches",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "retry.attempt1.responseCode": "Approved",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "refusalCodeRaw": "00",
+2025-11-17T07:16:58.028348+00:00 app[web.1]: "cardProductId": "F",
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "retry.attempt1.shopperInteraction": "Ecommerce",
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "cardFunction": "Consumer",
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "acquirerCode": "AdyenVisa_JP_418889",
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "riskdata.numberFieldLog": "fo@21,cl@22,KN@23,KN@24,KN@31,KN@33,KN@46,KN@47,KN@55,Kb@60,KN@63,KN@64,Kb@67,Kb@68,Kb@71,KN@82,KN@83,KN@104,KN@105,KN@106,KN@107,KN@123,KN@125,KN@129,KN@133"
+2025-11-17T07:16:58.028349+00:00 app[web.1]: },
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "amount": {
+2025-11-17T07:16:58.028349+00:00 app[web.1]: "currency": "JPY",
+2025-11-17T07:16:58.028350+00:00 app[web.1]: "value": 10
+2025-11-17T07:16:58.028350+00:00 app[web.1]: },
+2025-11-17T07:16:58.028350+00:00 app[web.1]: "eventCode": "AUTHORISATION",
+2025-11-17T07:16:58.028350+00:00 app[web.1]: "eventDate": "2025-11-17T08:16:55+01:00",
+2025-11-17T07:16:58.028350+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-17T07:16:58.028350+00:00 app[web.1]: "merchantReference": "20251117-hgNzF50YqQ",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "operations": [
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "CANCEL",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "CAPTURE",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "REFUND"
+2025-11-17T07:16:58.028351+00:00 app[web.1]: ],
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "paymentMethod": "visa",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "pspReference": "R5P33GCJ42B6N6W4",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "reason": "006895:7400:02/2027",
+2025-11-17T07:16:58.028351+00:00 app[web.1]: "success": "true"
+2025-11-17T07:16:58.028352+00:00 app[web.1]: }
+2025-11-17T07:16:58.028355+00:00 app[web.1]: }
+2025-11-17T07:16:58.028355+00:00 app[web.1]: ]
+2025-11-17T07:16:58.028355+00:00 app[web.1]: }
+2025-11-17T07:16:58.029040+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=f8074bf1-b5c8-e4b9-dc30-746a17fe5a12 fwd="85.184.229.10" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T07:49:48.903749+00:00 heroku[web.1]: Idling
+2025-11-17T07:49:48.906492+00:00 heroku[web.1]: State changed from up to down
+2025-11-17T07:49:49.532695+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-17T07:49:49.615388+00:00 heroku[web.1]: Process exited with status 143
+2025-11-17T14:04:50.230714+00:00 heroku[web.1]: Unidling
+2025-11-17T14:04:50.285978+00:00 heroku[web.1]: State changed from down to starting
+2025-11-17T14:04:52.200942+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-17T14:04:53.091186+00:00 app[web.1]: 
+2025-11-17T14:04:53.091214+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-17T14:04:53.091215+00:00 app[web.1]: > node index.js
+2025-11-17T14:04:53.091215+00:00 app[web.1]: 
+2025-11-17T14:04:53.187648+00:00 app[web.1]: Listening over 48102
+2025-11-17T14:04:53.323381+00:00 heroku[web.1]: State changed from starting to up
+2025-11-17T14:04:54.876768+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T14:04:54.877621+00:00 app[web.1]: [Function: header]
+2025-11-17T14:04:54.877701+00:00 app[web.1]: {
+2025-11-17T14:04:54.877701+00:00 app[web.1]: "live": "false",
+2025-11-17T14:04:54.877701+00:00 app[web.1]: "notificationItems": [
+2025-11-17T14:04:54.877701+00:00 app[web.1]: {
+2025-11-17T14:04:54.877703+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T14:04:54.877703+00:00 app[web.1]: "additionalData": {
+2025-11-17T14:04:54.877704+00:00 app[web.1]: "hmacSignature": "gbtVk2nMePUG8GiJB5dl4eqqQWZVTiefWlxyi39+RTY="
+2025-11-17T14:04:54.877704+00:00 app[web.1]: },
+2025-11-17T14:04:54.877705+00:00 app[web.1]: "amount": {
+2025-11-17T14:04:54.877705+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T14:04:54.877705+00:00 app[web.1]: "value": 0
+2025-11-17T14:04:54.877705+00:00 app[web.1]: },
+2025-11-17T14:04:54.877705+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T14:04:54.877706+00:00 app[web.1]: "eventDate": "2025-11-17T15:03:51+01:00",
+2025-11-17T14:04:54.877706+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T14:04:54.877707+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T14:04:54.877707+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_13.csv",
+2025-11-17T14:04:54.877708+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_13.csv",
+2025-11-17T14:04:54.877708+00:00 app[web.1]: "success": "true"
+2025-11-17T14:04:54.877708+00:00 app[web.1]: }
+2025-11-17T14:04:54.877708+00:00 app[web.1]: }
+2025-11-17T14:04:54.877708+00:00 app[web.1]: ]
+2025-11-17T14:04:54.877709+00:00 app[web.1]: }
+2025-11-17T14:04:54.880143+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=12b2b0ae-cfb6-b7bc-70cb-a58a1787d5f9 fwd="147.12.16.12" dyno=web.1 connect=4643ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T14:29:51.845029+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T14:29:51.845184+00:00 app[web.1]: [Function: header]
+2025-11-17T14:29:51.845186+00:00 app[web.1]: {
+2025-11-17T14:29:51.845187+00:00 app[web.1]: "live": "false",
+2025-11-17T14:29:51.845187+00:00 app[web.1]: "notificationItems": [
+2025-11-17T14:29:51.845187+00:00 app[web.1]: {
+2025-11-17T14:29:51.845188+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T14:29:51.845189+00:00 app[web.1]: "additionalData": {
+2025-11-17T14:29:51.845190+00:00 app[web.1]: "hmacSignature": "WRIex+i2q+jLDUO5xnWpQrdgA0U1EqyD0yM/9EL2l50="
+2025-11-17T14:29:51.845190+00:00 app[web.1]: },
+2025-11-17T14:29:51.845190+00:00 app[web.1]: "amount": {
+2025-11-17T14:29:51.845190+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T14:29:51.845191+00:00 app[web.1]: "value": 0
+2025-11-17T14:29:51.845191+00:00 app[web.1]: },
+2025-11-17T14:29:51.845191+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T14:29:51.845192+00:00 app[web.1]: "eventDate": "2025-11-17T15:28:42+01:00",
+2025-11-17T14:29:51.845192+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T14:29:51.845192+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T14:29:51.845193+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_14.csv",
+2025-11-17T14:29:51.845194+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_14.csv",
+2025-11-17T14:29:51.845194+00:00 app[web.1]: "success": "true"
+2025-11-17T14:29:51.845194+00:00 app[web.1]: }
+2025-11-17T14:29:51.845195+00:00 app[web.1]: }
+2025-11-17T14:29:51.845195+00:00 app[web.1]: ]
+2025-11-17T14:29:51.845195+00:00 app[web.1]: }
+2025-11-17T14:29:51.845866+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=6c835df6-b865-97ab-e764-a8c7453c2f57 fwd="147.12.16.11" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T14:33:34.587923+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T14:33:34.588050+00:00 app[web.1]: [Function: header]
+2025-11-17T14:33:34.588102+00:00 app[web.1]: {
+2025-11-17T14:33:34.588103+00:00 app[web.1]: "live": "false",
+2025-11-17T14:33:34.588103+00:00 app[web.1]: "notificationItems": [
+2025-11-17T14:33:34.588103+00:00 app[web.1]: {
+2025-11-17T14:33:34.588103+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T14:33:34.588104+00:00 app[web.1]: "additionalData": {
+2025-11-17T14:33:34.588105+00:00 app[web.1]: "hmacSignature": "+s6vrlCaUCKBsKg+cr0OrMYn3sv0enYpnbaJHn6Fjog="
+2025-11-17T14:33:34.588105+00:00 app[web.1]: },
+2025-11-17T14:33:34.588105+00:00 app[web.1]: "amount": {
+2025-11-17T14:33:34.588106+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T14:33:34.588106+00:00 app[web.1]: "value": 0
+2025-11-17T14:33:34.588106+00:00 app[web.1]: },
+2025-11-17T14:33:34.588106+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T14:33:34.588106+00:00 app[web.1]: "eventDate": "2025-11-17T15:31:54+01:00",
+2025-11-17T14:33:34.588107+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T14:33:34.588107+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T14:33:34.588107+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_15.csv",
+2025-11-17T14:33:34.588107+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_15.csv",
+2025-11-17T14:33:34.588108+00:00 app[web.1]: "success": "true"
+2025-11-17T14:33:34.588108+00:00 app[web.1]: }
+2025-11-17T14:33:34.588108+00:00 app[web.1]: }
+2025-11-17T14:33:34.588108+00:00 app[web.1]: ]
+2025-11-17T14:33:34.588108+00:00 app[web.1]: }
+2025-11-17T14:33:34.588601+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=5c1db000-99c5-dd63-3055-7dd114d28598 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T14:37:08.953569+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T14:37:08.953623+00:00 app[web.1]: [Function: header]
+2025-11-17T14:37:08.953668+00:00 app[web.1]: {
+2025-11-17T14:37:08.953668+00:00 app[web.1]: "live": "false",
+2025-11-17T14:37:08.953668+00:00 app[web.1]: "notificationItems": [
+2025-11-17T14:37:08.953669+00:00 app[web.1]: {
+2025-11-17T14:37:08.953670+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T14:37:08.953670+00:00 app[web.1]: "additionalData": {
+2025-11-17T14:37:08.953671+00:00 app[web.1]: "hmacSignature": "hl7SjpwdrE/71NeZwpFGsfuvBa0SSkZuL3QZaM6hNkg="
+2025-11-17T14:37:08.953672+00:00 app[web.1]: },
+2025-11-17T14:37:08.953672+00:00 app[web.1]: "amount": {
+2025-11-17T14:37:08.953672+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T14:37:08.953673+00:00 app[web.1]: "value": 0
+2025-11-17T14:37:08.953673+00:00 app[web.1]: },
+2025-11-17T14:37:08.953673+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T14:37:08.953674+00:00 app[web.1]: "eventDate": "2025-11-17T15:35:07+01:00",
+2025-11-17T14:37:08.953674+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T14:37:08.953675+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T14:37:08.953675+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_16.csv",
+2025-11-17T14:37:08.953676+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_16.csv",
+2025-11-17T14:37:08.953676+00:00 app[web.1]: "success": "true"
+2025-11-17T14:37:08.953677+00:00 app[web.1]: }
+2025-11-17T14:37:08.953677+00:00 app[web.1]: }
+2025-11-17T14:37:08.953678+00:00 app[web.1]: ]
+2025-11-17T14:37:08.953678+00:00 app[web.1]: }
+2025-11-17T14:37:08.954272+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=3ab4423c-101c-9527-ce74-1ba47318cfd5 fwd="147.12.16.11" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T15:03:03.452343+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T15:03:03.452393+00:00 app[web.1]: [Function: header]
+2025-11-17T15:03:03.452426+00:00 app[web.1]: {
+2025-11-17T15:03:03.452426+00:00 app[web.1]: "live": "false",
+2025-11-17T15:03:03.452426+00:00 app[web.1]: "notificationItems": [
+2025-11-17T15:03:03.452426+00:00 app[web.1]: {
+2025-11-17T15:03:03.452427+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T15:03:03.452428+00:00 app[web.1]: "additionalData": {
+2025-11-17T15:03:03.452429+00:00 app[web.1]: "hmacSignature": "O2vkB7jJhNgJN5TrNjv+k6If9JiWFFRFswP3CT9SFhw="
+2025-11-17T15:03:03.452429+00:00 app[web.1]: },
+2025-11-17T15:03:03.452429+00:00 app[web.1]: "amount": {
+2025-11-17T15:03:03.452429+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T15:03:03.452430+00:00 app[web.1]: "value": 0
+2025-11-17T15:03:03.452430+00:00 app[web.1]: },
+2025-11-17T15:03:03.452430+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T15:03:03.452431+00:00 app[web.1]: "eventDate": "2025-11-17T16:02:02+01:00",
+2025-11-17T15:03:03.452431+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T15:03:03.452432+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T15:03:03.452432+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_17.csv",
+2025-11-17T15:03:03.452433+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_17.csv",
+2025-11-17T15:03:03.452433+00:00 app[web.1]: "success": "true"
+2025-11-17T15:03:03.452433+00:00 app[web.1]: }
+2025-11-17T15:03:03.452433+00:00 app[web.1]: }
+2025-11-17T15:03:03.452433+00:00 app[web.1]: ]
+2025-11-17T15:03:03.452433+00:00 app[web.1]: }
+2025-11-17T15:03:03.453054+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=6779bd34-0d18-9276-9a35-386fc7f3597b fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T15:03:03.539202+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T15:03:03.539244+00:00 app[web.1]: [Function: header]
+2025-11-17T15:03:03.539272+00:00 app[web.1]: {
+2025-11-17T15:03:03.539273+00:00 app[web.1]: "live": "false",
+2025-11-17T15:03:03.539273+00:00 app[web.1]: "notificationItems": [
+2025-11-17T15:03:03.539273+00:00 app[web.1]: {
+2025-11-17T15:03:03.539273+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T15:03:03.539274+00:00 app[web.1]: "additionalData": {
+2025-11-17T15:03:03.539274+00:00 app[web.1]: "hmacSignature": "O2vkB7jJhNgJN5TrNjv+k6If9JiWFFRFswP3CT9SFhw="
+2025-11-17T15:03:03.539274+00:00 app[web.1]: },
+2025-11-17T15:03:03.539275+00:00 app[web.1]: "amount": {
+2025-11-17T15:03:03.539275+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T15:03:03.539275+00:00 app[web.1]: "value": 0
+2025-11-17T15:03:03.539275+00:00 app[web.1]: },
+2025-11-17T15:03:03.539275+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T15:03:03.539276+00:00 app[web.1]: "eventDate": "2025-11-17T16:02:12+01:00",
+2025-11-17T15:03:03.539276+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T15:03:03.539276+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T15:03:03.539276+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_17.csv",
+2025-11-17T15:03:03.539277+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/dispute_report_2025_11_17.csv",
+2025-11-17T15:03:03.539277+00:00 app[web.1]: "success": "true"
+2025-11-17T15:03:03.539277+00:00 app[web.1]: }
+2025-11-17T15:03:03.539277+00:00 app[web.1]: }
+2025-11-17T15:03:03.539277+00:00 app[web.1]: ]
+2025-11-17T15:03:03.539277+00:00 app[web.1]: }
+2025-11-17T15:03:03.539646+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=d2ab8c49-8a0e-daf7-aab0-fa04aadb605f fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T15:37:37.107577+00:00 heroku[web.1]: Idling
+2025-11-17T15:37:37.110102+00:00 heroku[web.1]: State changed from up to down
+2025-11-17T15:37:38.669125+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-17T15:37:39.768356+00:00 heroku[web.1]: Process exited with status 143
+2025-11-17T16:31:53.518050+00:00 heroku[web.1]: Unidling
+2025-11-17T16:31:53.572810+00:00 heroku[web.1]: State changed from down to starting
+2025-11-17T16:31:55.677756+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-17T16:31:56.650734+00:00 app[web.1]: 
+2025-11-17T16:31:56.650755+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-17T16:31:56.650756+00:00 app[web.1]: > node index.js
+2025-11-17T16:31:56.650756+00:00 app[web.1]: 
+2025-11-17T16:31:56.754176+00:00 app[web.1]: Listening over 20086
+2025-11-17T16:31:56.805565+00:00 heroku[web.1]: State changed from starting to up
+2025-11-17T16:31:58.664354+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:31:58.665212+00:00 app[web.1]: [Function: header]
+2025-11-17T16:31:58.665263+00:00 app[web.1]: {
+2025-11-17T16:31:58.665263+00:00 app[web.1]: "live": "false",
+2025-11-17T16:31:58.665264+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:31:58.665264+00:00 app[web.1]: {
+2025-11-17T16:31:58.665264+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:31:58.665264+00:00 app[web.1]: "amount": {
+2025-11-17T16:31:58.665265+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:31:58.665265+00:00 app[web.1]: "value": 0
+2025-11-17T16:31:58.665265+00:00 app[web.1]: },
+2025-11-17T16:31:58.665265+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:31:58.665268+00:00 app[web.1]: "eventDate": "2025-11-17T17:30:51+01:00",
+2025-11-17T16:31:58.665268+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T16:31:58.665268+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:31:58.665276+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_14.csv",
+2025-11-17T16:31:58.665280+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_14.csv",
+2025-11-17T16:31:58.665280+00:00 app[web.1]: "success": "true"
+2025-11-17T16:31:58.665280+00:00 app[web.1]: }
+2025-11-17T16:31:58.665281+00:00 app[web.1]: }
+2025-11-17T16:31:58.665281+00:00 app[web.1]: ]
+2025-11-17T16:31:58.665281+00:00 app[web.1]: }
+2025-11-17T16:31:58.667688+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=3a18f6de-0f6a-b2e0-b34b-46174280229b fwd="147.12.16.12" dyno=web.1 connect=5152ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:31:58.754691+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:31:58.754767+00:00 app[web.1]: [Function: header]
+2025-11-17T16:31:58.754803+00:00 app[web.1]: {
+2025-11-17T16:31:58.754803+00:00 app[web.1]: "live": "false",
+2025-11-17T16:31:58.754803+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:31:58.754804+00:00 app[web.1]: {
+2025-11-17T16:31:58.754804+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:31:58.754804+00:00 app[web.1]: "amount": {
+2025-11-17T16:31:58.754805+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:31:58.754805+00:00 app[web.1]: "value": 0
+2025-11-17T16:31:58.754805+00:00 app[web.1]: },
+2025-11-17T16:31:58.754805+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:31:58.754806+00:00 app[web.1]: "eventDate": "2025-11-17T17:31:12+01:00",
+2025-11-17T16:31:58.754806+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T16:31:58.754807+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:31:58.754807+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_15.csv",
+2025-11-17T16:31:58.754808+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_15.csv",
+2025-11-17T16:31:58.754808+00:00 app[web.1]: "success": "true"
+2025-11-17T16:31:58.754808+00:00 app[web.1]: }
+2025-11-17T16:31:58.754808+00:00 app[web.1]: }
+2025-11-17T16:31:58.754808+00:00 app[web.1]: ]
+2025-11-17T16:31:58.754808+00:00 app[web.1]: }
+2025-11-17T16:31:58.755255+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=34b3bac3-a76f-9443-7778-b54e4fde0129 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:31:59.210132+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:31:59.210214+00:00 app[web.1]: [Function: header]
+2025-11-17T16:31:59.210315+00:00 app[web.1]: {
+2025-11-17T16:31:59.210316+00:00 app[web.1]: "live": "false",
+2025-11-17T16:31:59.210316+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:31:59.210316+00:00 app[web.1]: {
+2025-11-17T16:31:59.210317+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:31:59.210317+00:00 app[web.1]: "additionalData": {
+2025-11-17T16:31:59.210318+00:00 app[web.1]: "hmacSignature": "pGiyQU2z/hx03n4zBj7NcXvBFMWfdyrO7VviTG64grQ="
+2025-11-17T16:31:59.210319+00:00 app[web.1]: },
+2025-11-17T16:31:59.210319+00:00 app[web.1]: "amount": {
+2025-11-17T16:31:59.210319+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:31:59.210319+00:00 app[web.1]: "value": 0
+2025-11-17T16:31:59.210319+00:00 app[web.1]: },
+2025-11-17T16:31:59.210319+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:31:59.210320+00:00 app[web.1]: "eventDate": "2025-11-17T17:30:50+01:00",
+2025-11-17T16:31:59.210320+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T16:31:59.210320+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:31:59.210321+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_15.csv",
+2025-11-17T16:31:59.210322+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_15.csv",
+2025-11-17T16:31:59.210322+00:00 app[web.1]: "success": "true"
+2025-11-17T16:31:59.210322+00:00 app[web.1]: }
+2025-11-17T16:31:59.210322+00:00 app[web.1]: }
+2025-11-17T16:31:59.210322+00:00 app[web.1]: ]
+2025-11-17T16:31:59.210322+00:00 app[web.1]: }
+2025-11-17T16:31:59.210890+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=f5a436f6-dbb0-25cb-c791-2b7f705ac175 fwd="147.12.16.12" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:31:59.302637+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:31:59.302719+00:00 app[web.1]: [Function: header]
+2025-11-17T16:31:59.302754+00:00 app[web.1]: {
+2025-11-17T16:31:59.302754+00:00 app[web.1]: "live": "false",
+2025-11-17T16:31:59.302754+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:31:59.302755+00:00 app[web.1]: {
+2025-11-17T16:31:59.302755+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:31:59.302755+00:00 app[web.1]: "additionalData": {
+2025-11-17T16:31:59.302756+00:00 app[web.1]: "hmacSignature": "YFgjl24vl3cdBXqeg8LM1tdJxWKKduXjqfsObD3enT8="
+2025-11-17T16:31:59.302756+00:00 app[web.1]: },
+2025-11-17T16:31:59.302756+00:00 app[web.1]: "amount": {
+2025-11-17T16:31:59.302757+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:31:59.302757+00:00 app[web.1]: "value": 0
+2025-11-17T16:31:59.302757+00:00 app[web.1]: },
+2025-11-17T16:31:59.302757+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:31:59.302758+00:00 app[web.1]: "eventDate": "2025-11-17T17:30:54+01:00",
+2025-11-17T16:31:59.302758+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T16:31:59.302758+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:31:59.302758+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_14.csv",
+2025-11-17T16:31:59.302758+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_14.csv",
+2025-11-17T16:31:59.302759+00:00 app[web.1]: "success": "true"
+2025-11-17T16:31:59.302759+00:00 app[web.1]: }
+2025-11-17T16:31:59.302759+00:00 app[web.1]: }
+2025-11-17T16:31:59.302759+00:00 app[web.1]: ]
+2025-11-17T16:31:59.302759+00:00 app[web.1]: }
+2025-11-17T16:31:59.303286+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=7fe254f7-13c4-b896-39cb-4856e6831637 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:34:09.058547+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:34:09.058735+00:00 app[web.1]: [Function: header]
+2025-11-17T16:34:09.058765+00:00 app[web.1]: {
+2025-11-17T16:34:09.058765+00:00 app[web.1]: "live": "false",
+2025-11-17T16:34:09.058766+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:34:09.058766+00:00 app[web.1]: {
+2025-11-17T16:34:09.058767+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:34:09.058767+00:00 app[web.1]: "amount": {
+2025-11-17T16:34:09.058767+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:34:09.058767+00:00 app[web.1]: "value": 0
+2025-11-17T16:34:09.058768+00:00 app[web.1]: },
+2025-11-17T16:34:09.058768+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:34:09.058769+00:00 app[web.1]: "eventDate": "2025-11-17T17:31:07+01:00",
+2025-11-17T16:34:09.058769+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T16:34:09.058769+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:34:09.058771+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_15.csv",
+2025-11-17T16:34:09.058772+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_15.csv",
+2025-11-17T16:34:09.058772+00:00 app[web.1]: "success": "true"
+2025-11-17T16:34:09.058773+00:00 app[web.1]: }
+2025-11-17T16:34:09.058773+00:00 app[web.1]: }
+2025-11-17T16:34:09.058773+00:00 app[web.1]: ]
+2025-11-17T16:34:09.058773+00:00 app[web.1]: }
+2025-11-17T16:34:09.059556+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=e05e25a8-8c60-1fb2-64e1-319b71d5a9bf fwd="147.12.16.12" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:34:09.145414+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:34:09.145470+00:00 app[web.1]: [Function: header]
+2025-11-17T16:34:09.145501+00:00 app[web.1]: {
+2025-11-17T16:34:09.145501+00:00 app[web.1]: "live": "false",
+2025-11-17T16:34:09.145502+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:34:09.145502+00:00 app[web.1]: {
+2025-11-17T16:34:09.145502+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:34:09.145502+00:00 app[web.1]: "amount": {
+2025-11-17T16:34:09.145503+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:34:09.145503+00:00 app[web.1]: "value": 0
+2025-11-17T16:34:09.145503+00:00 app[web.1]: },
+2025-11-17T16:34:09.145503+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:34:09.145504+00:00 app[web.1]: "eventDate": "2025-11-17T17:31:34+01:00",
+2025-11-17T16:34:09.145504+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T16:34:09.145504+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:34:09.145505+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_14.csv",
+2025-11-17T16:34:09.145505+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_14.csv",
+2025-11-17T16:34:09.145505+00:00 app[web.1]: "success": "true"
+2025-11-17T16:34:09.145506+00:00 app[web.1]: }
+2025-11-17T16:34:09.145506+00:00 app[web.1]: }
+2025-11-17T16:34:09.145506+00:00 app[web.1]: ]
+2025-11-17T16:34:09.145506+00:00 app[web.1]: }
+2025-11-17T16:34:09.146187+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=ba46ebf0-8a5f-ce5a-7ea9-89bca6f08363 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:41:05.624911+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T16:41:05.624967+00:00 app[web.1]: [Function: header]
+2025-11-17T16:41:05.624995+00:00 app[web.1]: {
+2025-11-17T16:41:05.624995+00:00 app[web.1]: "live": "true",
+2025-11-17T16:41:05.624996+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:41:05.624996+00:00 app[web.1]: {
+2025-11-17T16:41:05.624997+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:41:05.624997+00:00 app[web.1]: "amount": {
+2025-11-17T16:41:05.624998+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:41:05.624998+00:00 app[web.1]: "value": 0
+2025-11-17T16:41:05.624998+00:00 app[web.1]: },
+2025-11-17T16:41:05.624998+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:41:05.624999+00:00 app[web.1]: "eventDate": "2025-11-17T17:21:36+01:00",
+2025-11-17T16:41:05.624999+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-17T16:41:05.625000+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:41:05.625000+00:00 app[web.1]: "pspReference": "dispute_report_2025_11_17.csv",
+2025-11-17T16:41:05.625001+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/dispute_report_2025_11_17.csv",
+2025-11-17T16:41:05.625001+00:00 app[web.1]: "success": "true"
+2025-11-17T16:41:05.625001+00:00 app[web.1]: }
+2025-11-17T16:41:05.625001+00:00 app[web.1]: }
+2025-11-17T16:41:05.625002+00:00 app[web.1]: ]
+2025-11-17T16:41:05.625002+00:00 app[web.1]: }
+2025-11-17T16:41:05.625503+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=6181719c-df07-48e0-5488-95f86311f86e fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:41:05.725377+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T16:41:05.725432+00:00 app[web.1]: [Function: header]
+2025-11-17T16:41:05.725459+00:00 app[web.1]: {
+2025-11-17T16:41:05.725459+00:00 app[web.1]: "live": "true",
+2025-11-17T16:41:05.725459+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:41:05.725459+00:00 app[web.1]: {
+2025-11-17T16:41:05.725460+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:41:05.725460+00:00 app[web.1]: "amount": {
+2025-11-17T16:41:05.725461+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:41:05.725462+00:00 app[web.1]: "value": 0
+2025-11-17T16:41:05.725462+00:00 app[web.1]: },
+2025-11-17T16:41:05.725462+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:41:05.725463+00:00 app[web.1]: "eventDate": "2025-11-17T17:37:53+01:00",
+2025-11-17T16:41:05.725463+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-17T16:41:05.725464+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:41:05.725467+00:00 app[web.1]: "pspReference": "settlement_detail_report_2025-11-17_be12684f.csv",
+2025-11-17T16:41:05.725469+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/settlement_detail_report_2025-11-17_be12684f.csv",
+2025-11-17T16:41:05.725469+00:00 app[web.1]: "success": "true"
+2025-11-17T16:41:05.725470+00:00 app[web.1]: }
+2025-11-17T16:41:05.725470+00:00 app[web.1]: }
+2025-11-17T16:41:05.725470+00:00 app[web.1]: ]
+2025-11-17T16:41:05.725470+00:00 app[web.1]: }
+2025-11-17T16:41:05.725993+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=3577971b-72ad-8ebc-ef53-bef0ee847fc5 fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:43:05.517374+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:43:05.517428+00:00 app[web.1]: [Function: header]
+2025-11-17T16:43:05.517466+00:00 app[web.1]: {
+2025-11-17T16:43:05.517467+00:00 app[web.1]: "live": "false",
+2025-11-17T16:43:05.517467+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:43:05.517468+00:00 app[web.1]: {
+2025-11-17T16:43:05.517469+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:43:05.517469+00:00 app[web.1]: "amount": {
+2025-11-17T16:43:05.517469+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:43:05.517470+00:00 app[web.1]: "value": 0
+2025-11-17T16:43:05.517470+00:00 app[web.1]: },
+2025-11-17T16:43:05.517470+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:43:05.517471+00:00 app[web.1]: "eventDate": "2025-11-17T17:41:55+01:00",
+2025-11-17T16:43:05.517472+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T16:43:05.517472+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:43:05.517473+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-17T16:43:05.517474+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_16.csv",
+2025-11-17T16:43:05.517474+00:00 app[web.1]: "success": "true"
+2025-11-17T16:43:05.517474+00:00 app[web.1]: }
+2025-11-17T16:43:05.517475+00:00 app[web.1]: }
+2025-11-17T16:43:05.517475+00:00 app[web.1]: ]
+2025-11-17T16:43:05.517475+00:00 app[web.1]: }
+2025-11-17T16:43:05.518314+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=be5bd61f-7a67-72ed-baf5-f6eb1b0f1ba7 fwd="147.12.16.12" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:43:29.531327+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T16:43:29.531372+00:00 app[web.1]: [Function: header]
+2025-11-17T16:43:29.531401+00:00 app[web.1]: {
+2025-11-17T16:43:29.531401+00:00 app[web.1]: "live": "false",
+2025-11-17T16:43:29.531401+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:43:29.531402+00:00 app[web.1]: {
+2025-11-17T16:43:29.531402+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:43:29.531403+00:00 app[web.1]: "amount": {
+2025-11-17T16:43:29.531403+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:43:29.531403+00:00 app[web.1]: "value": 0
+2025-11-17T16:43:29.531404+00:00 app[web.1]: },
+2025-11-17T16:43:29.531404+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:43:29.531407+00:00 app[web.1]: "eventDate": "2025-11-17T17:42:05+01:00",
+2025-11-17T16:43:29.531407+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T16:43:29.531407+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:43:29.531408+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-17T16:43:29.531409+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_16.csv",
+2025-11-17T16:43:29.531409+00:00 app[web.1]: "success": "true"
+2025-11-17T16:43:29.531409+00:00 app[web.1]: }
+2025-11-17T16:43:29.531410+00:00 app[web.1]: }
+2025-11-17T16:43:29.531410+00:00 app[web.1]: ]
+2025-11-17T16:43:29.531410+00:00 app[web.1]: }
+2025-11-17T16:43:29.532022+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=8ea06a3b-ac0b-21b7-660d-f0c64c9f72f4 fwd="147.12.16.11" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:45:11.684046+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T16:45:11.684129+00:00 app[web.1]: [Function: header]
+2025-11-17T16:45:11.684160+00:00 app[web.1]: {
+2025-11-17T16:45:11.684161+00:00 app[web.1]: "live": "false",
+2025-11-17T16:45:11.684161+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:45:11.684161+00:00 app[web.1]: {
+2025-11-17T16:45:11.684163+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:45:11.684163+00:00 app[web.1]: "additionalData": {
+2025-11-17T16:45:11.684164+00:00 app[web.1]: "hmacSignature": "QwC+dViaHfrlchnY1n09cJ4PGIJrhPFT+WnqIeMrE8w="
+2025-11-17T16:45:11.684165+00:00 app[web.1]: },
+2025-11-17T16:45:11.684165+00:00 app[web.1]: "amount": {
+2025-11-17T16:45:11.684165+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:45:11.684165+00:00 app[web.1]: "value": 0
+2025-11-17T16:45:11.684166+00:00 app[web.1]: },
+2025-11-17T16:45:11.684166+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:45:11.684167+00:00 app[web.1]: "eventDate": "2025-11-17T17:42:38+01:00",
+2025-11-17T16:45:11.684168+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T16:45:11.684168+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:45:11.684168+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_16.csv",
+2025-11-17T16:45:11.684170+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_16.csv",
+2025-11-17T16:45:11.684170+00:00 app[web.1]: "success": "true"
+2025-11-17T16:45:11.684170+00:00 app[web.1]: }
+2025-11-17T16:45:11.684170+00:00 app[web.1]: }
+2025-11-17T16:45:11.684171+00:00 app[web.1]: ]
+2025-11-17T16:45:11.684171+00:00 app[web.1]: }
+2025-11-17T16:45:11.684978+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=f9e08091-2193-9e3d-9b3c-135912e20245 fwd="147.12.16.11" dyno=web.1 connect=0ms service=5ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:52:30.767160+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:52:30.767221+00:00 app[web.1]: [Function: header]
+2025-11-17T16:52:30.767240+00:00 app[web.1]: {
+2025-11-17T16:52:30.767241+00:00 app[web.1]: "live": "false",
+2025-11-17T16:52:30.767241+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:52:30.767241+00:00 app[web.1]: {
+2025-11-17T16:52:30.767242+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:52:30.767242+00:00 app[web.1]: "amount": {
+2025-11-17T16:52:30.767242+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:52:30.767242+00:00 app[web.1]: "value": 0
+2025-11-17T16:52:30.767243+00:00 app[web.1]: },
+2025-11-17T16:52:30.767243+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:52:30.767243+00:00 app[web.1]: "eventDate": "2025-11-17T17:50:51+01:00",
+2025-11-17T16:52:30.767244+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-17T16:52:30.767244+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:52:30.767244+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_13.csv",
+2025-11-17T16:52:30.767247+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_13.csv",
+2025-11-17T16:52:30.767247+00:00 app[web.1]: "success": "true"
+2025-11-17T16:52:30.767247+00:00 app[web.1]: }
+2025-11-17T16:52:30.767247+00:00 app[web.1]: }
+2025-11-17T16:52:30.767248+00:00 app[web.1]: ]
+2025-11-17T16:52:30.767248+00:00 app[web.1]: }
+2025-11-17T16:52:30.767783+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=4e53cf47-9456-a513-6f72-50eac01edd6e fwd="147.12.16.12" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:52:52.672921+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T16:52:52.672970+00:00 app[web.1]: [Function: header]
+2025-11-17T16:52:52.673002+00:00 app[web.1]: {
+2025-11-17T16:52:52.673002+00:00 app[web.1]: "live": "false",
+2025-11-17T16:52:52.673002+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:52:52.673003+00:00 app[web.1]: {
+2025-11-17T16:52:52.673004+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:52:52.673004+00:00 app[web.1]: "amount": {
+2025-11-17T16:52:52.673004+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:52:52.673004+00:00 app[web.1]: "value": 0
+2025-11-17T16:52:52.673004+00:00 app[web.1]: },
+2025-11-17T16:52:52.673005+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:52:52.673006+00:00 app[web.1]: "eventDate": "2025-11-17T17:50:31+01:00",
+2025-11-17T16:52:52.673006+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T16:52:52.673006+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:52:52.673007+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_13.csv",
+2025-11-17T16:52:52.673008+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_13.csv",
+2025-11-17T16:52:52.673009+00:00 app[web.1]: "success": "true"
+2025-11-17T16:52:52.673009+00:00 app[web.1]: }
+2025-11-17T16:52:52.673009+00:00 app[web.1]: }
+2025-11-17T16:52:52.673009+00:00 app[web.1]: ]
+2025-11-17T16:52:52.673009+00:00 app[web.1]: }
+2025-11-17T16:52:52.673550+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=9c845d15-f32c-343a-1b97-956ddc461d63 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T16:54:10.215371+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-17T16:54:10.215418+00:00 app[web.1]: [Function: header]
+2025-11-17T16:54:10.215447+00:00 app[web.1]: {
+2025-11-17T16:54:10.215447+00:00 app[web.1]: "live": "false",
+2025-11-17T16:54:10.215448+00:00 app[web.1]: "notificationItems": [
+2025-11-17T16:54:10.215448+00:00 app[web.1]: {
+2025-11-17T16:54:10.215449+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T16:54:10.215449+00:00 app[web.1]: "additionalData": {
+2025-11-17T16:54:10.215450+00:00 app[web.1]: "hmacSignature": "4oryKJn3P54FV1F2fguBjppeOIjSS50gxadzfsDeu7g="
+2025-11-17T16:54:10.215450+00:00 app[web.1]: },
+2025-11-17T16:54:10.215450+00:00 app[web.1]: "amount": {
+2025-11-17T16:54:10.215450+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T16:54:10.215451+00:00 app[web.1]: "value": 0
+2025-11-17T16:54:10.215451+00:00 app[web.1]: },
+2025-11-17T16:54:10.215451+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T16:54:10.215452+00:00 app[web.1]: "eventDate": "2025-11-17T17:51:32+01:00",
+2025-11-17T16:54:10.215452+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T16:54:10.215452+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T16:54:10.215452+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_13.csv",
+2025-11-17T16:54:10.215455+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_13.csv",
+2025-11-17T16:54:10.215455+00:00 app[web.1]: "success": "true"
+2025-11-17T16:54:10.215455+00:00 app[web.1]: }
+2025-11-17T16:54:10.215455+00:00 app[web.1]: }
+2025-11-17T16:54:10.215455+00:00 app[web.1]: ]
+2025-11-17T16:54:10.215455+00:00 app[web.1]: }
+2025-11-17T16:54:10.216052+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=1700912c-809c-3ce7-848e-ded3999311ba fwd="147.12.16.11" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:21:46.359443+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T17:21:46.359494+00:00 app[web.1]: [Function: header]
+2025-11-17T17:21:46.359532+00:00 app[web.1]: {
+2025-11-17T17:21:46.359532+00:00 app[web.1]: "live": "true",
+2025-11-17T17:21:46.359532+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:21:46.359532+00:00 app[web.1]: {
+2025-11-17T17:21:46.359533+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:21:46.359534+00:00 app[web.1]: "amount": {
+2025-11-17T17:21:46.359534+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:21:46.359534+00:00 app[web.1]: "value": 0
+2025-11-17T17:21:46.359534+00:00 app[web.1]: },
+2025-11-17T17:21:46.359535+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:21:46.359536+00:00 app[web.1]: "eventDate": "2025-11-17T18:21:24+01:00",
+2025-11-17T17:21:46.359536+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T17:21:46.359536+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:21:46.359537+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:46.359539+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:46.359539+00:00 app[web.1]: "success": "true"
+2025-11-17T17:21:46.359539+00:00 app[web.1]: }
+2025-11-17T17:21:46.359539+00:00 app[web.1]: }
+2025-11-17T17:21:46.359540+00:00 app[web.1]: ]
+2025-11-17T17:21:46.359540+00:00 app[web.1]: }
+2025-11-17T17:21:46.360097+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=c9180152-fcff-780a-7304-5d5ec5c63461 fwd="82.199.90.163" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:21:46.775185+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T17:21:46.775212+00:00 app[web.1]: [Function: header]
+2025-11-17T17:21:46.775233+00:00 app[web.1]: {
+2025-11-17T17:21:46.775234+00:00 app[web.1]: "live": "true",
+2025-11-17T17:21:46.775234+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:21:46.775234+00:00 app[web.1]: {
+2025-11-17T17:21:46.775235+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:21:46.775235+00:00 app[web.1]: "amount": {
+2025-11-17T17:21:46.775235+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:21:46.775235+00:00 app[web.1]: "value": 0
+2025-11-17T17:21:46.775236+00:00 app[web.1]: },
+2025-11-17T17:21:46.775236+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:21:46.775239+00:00 app[web.1]: "eventDate": "2025-11-17T18:21:24+01:00",
+2025-11-17T17:21:46.775239+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T17:21:46.775239+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:21:46.775241+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:46.775244+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:46.775244+00:00 app[web.1]: "success": "true"
+2025-11-17T17:21:46.775244+00:00 app[web.1]: }
+2025-11-17T17:21:46.775245+00:00 app[web.1]: }
+2025-11-17T17:21:46.775245+00:00 app[web.1]: ]
+2025-11-17T17:21:46.775245+00:00 app[web.1]: }
+2025-11-17T17:21:46.775792+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=d2db00ef-e680-f959-9fce-211483a1adfb fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:21:47.007473+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T17:21:47.007515+00:00 app[web.1]: [Function: header]
+2025-11-17T17:21:47.007551+00:00 app[web.1]: {
+2025-11-17T17:21:47.007551+00:00 app[web.1]: "live": "true",
+2025-11-17T17:21:47.007552+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:21:47.007552+00:00 app[web.1]: {
+2025-11-17T17:21:47.007552+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:21:47.007553+00:00 app[web.1]: "amount": {
+2025-11-17T17:21:47.007553+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:21:47.007553+00:00 app[web.1]: "value": 0
+2025-11-17T17:21:47.007554+00:00 app[web.1]: },
+2025-11-17T17:21:47.007554+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:21:47.007554+00:00 app[web.1]: "eventDate": "2025-11-17T18:21:23+01:00",
+2025-11-17T17:21:47.007555+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-17T17:21:47.007555+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:21:47.007556+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:47.007557+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_POS_JP/payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:47.007557+00:00 app[web.1]: "success": "true"
+2025-11-17T17:21:47.007557+00:00 app[web.1]: }
+2025-11-17T17:21:47.007557+00:00 app[web.1]: }
+2025-11-17T17:21:47.007557+00:00 app[web.1]: ]
+2025-11-17T17:21:47.007558+00:00 app[web.1]: }
+2025-11-17T17:21:47.008327+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=a234e6b9-d898-d7dc-33b6-0dcfc3452c9c fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:21:48.074606+00:00 app[web.1]: Request IP: 82.199.90.163
+2025-11-17T17:21:48.074646+00:00 app[web.1]: [Function: header]
+2025-11-17T17:21:48.074680+00:00 app[web.1]: {
+2025-11-17T17:21:48.074680+00:00 app[web.1]: "live": "true",
+2025-11-17T17:21:48.074680+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:21:48.074681+00:00 app[web.1]: {
+2025-11-17T17:21:48.074681+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:21:48.074681+00:00 app[web.1]: "amount": {
+2025-11-17T17:21:48.074681+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:21:48.074682+00:00 app[web.1]: "value": 0
+2025-11-17T17:21:48.074682+00:00 app[web.1]: },
+2025-11-17T17:21:48.074682+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:21:48.074682+00:00 app[web.1]: "eventDate": "2025-11-17T18:21:24+01:00",
+2025-11-17T17:21:48.074683+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-17T17:21:48.074683+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:21:48.074683+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:48.074684+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/payments_accounting_report_2025_11_17.csv",
+2025-11-17T17:21:48.074684+00:00 app[web.1]: "success": "true"
+2025-11-17T17:21:48.074684+00:00 app[web.1]: }
+2025-11-17T17:21:48.074684+00:00 app[web.1]: }
+2025-11-17T17:21:48.074684+00:00 app[web.1]: ]
+2025-11-17T17:21:48.074684+00:00 app[web.1]: }
+2025-11-17T17:21:48.075269+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=1272038a-3d79-5e3e-5ecd-739e07a20a0c fwd="82.199.90.163" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:27:55.874681+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T17:27:55.874731+00:00 app[web.1]: [Function: header]
+2025-11-17T17:27:55.874758+00:00 app[web.1]: {
+2025-11-17T17:27:55.874759+00:00 app[web.1]: "live": "false",
+2025-11-17T17:27:55.874759+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:27:55.874759+00:00 app[web.1]: {
+2025-11-17T17:27:55.874760+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:27:55.874760+00:00 app[web.1]: "amount": {
+2025-11-17T17:27:55.874761+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:27:55.874761+00:00 app[web.1]: "value": 0
+2025-11-17T17:27:55.874761+00:00 app[web.1]: },
+2025-11-17T17:27:55.874761+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:27:55.874762+00:00 app[web.1]: "eventDate": "2025-11-17T18:27:18+01:00",
+2025-11-17T17:27:55.874763+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T17:27:55.874763+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:27:55.874764+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.874765+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.874765+00:00 app[web.1]: "success": "true"
+2025-11-17T17:27:55.874765+00:00 app[web.1]: }
+2025-11-17T17:27:55.874766+00:00 app[web.1]: }
+2025-11-17T17:27:55.874766+00:00 app[web.1]: ]
+2025-11-17T17:27:55.874766+00:00 app[web.1]: }
+2025-11-17T17:27:55.875634+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=7a285f36-e5a9-148e-ff37-6e1da85ddb88 fwd="147.12.16.12" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:27:55.891405+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T17:27:55.891522+00:00 app[web.1]: [Function: header]
+2025-11-17T17:27:55.891552+00:00 app[web.1]: {
+2025-11-17T17:27:55.891552+00:00 app[web.1]: "live": "false",
+2025-11-17T17:27:55.891553+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:27:55.891553+00:00 app[web.1]: {
+2025-11-17T17:27:55.891553+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:27:55.891553+00:00 app[web.1]: "additionalData": {
+2025-11-17T17:27:55.891554+00:00 app[web.1]: "hmacSignature": "ae6tXpef0GOfOUtSet240anUFnhh0YZBzVnEkemWlSo="
+2025-11-17T17:27:55.891555+00:00 app[web.1]: },
+2025-11-17T17:27:55.891555+00:00 app[web.1]: "amount": {
+2025-11-17T17:27:55.891555+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:27:55.891555+00:00 app[web.1]: "value": 0
+2025-11-17T17:27:55.891556+00:00 app[web.1]: },
+2025-11-17T17:27:55.891556+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:27:55.891556+00:00 app[web.1]: "eventDate": "2025-11-17T18:27:18+01:00",
+2025-11-17T17:27:55.891557+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T17:27:55.891557+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:27:55.891557+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.891557+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.891558+00:00 app[web.1]: "success": "true"
+2025-11-17T17:27:55.891558+00:00 app[web.1]: }
+2025-11-17T17:27:55.891558+00:00 app[web.1]: }
+2025-11-17T17:27:55.891558+00:00 app[web.1]: ]
+2025-11-17T17:27:55.891558+00:00 app[web.1]: }
+2025-11-17T17:27:55.892018+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=42804658-f589-5944-29b8-3059b9919258 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:27:55.963132+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T17:27:55.963186+00:00 app[web.1]: [Function: header]
+2025-11-17T17:27:55.963223+00:00 app[web.1]: {
+2025-11-17T17:27:55.963223+00:00 app[web.1]: "live": "false",
+2025-11-17T17:27:55.963224+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:27:55.963224+00:00 app[web.1]: {
+2025-11-17T17:27:55.963225+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:27:55.963225+00:00 app[web.1]: "amount": {
+2025-11-17T17:27:55.963225+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:27:55.963226+00:00 app[web.1]: "value": 0
+2025-11-17T17:27:55.963226+00:00 app[web.1]: },
+2025-11-17T17:27:55.963227+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:27:55.963227+00:00 app[web.1]: "eventDate": "2025-11-17T18:27:18+01:00",
+2025-11-17T17:27:55.963236+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM2",
+2025-11-17T17:27:55.963237+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:27:55.963237+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.963238+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaCOM2/received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.963238+00:00 app[web.1]: "success": "true"
+2025-11-17T17:27:55.963239+00:00 app[web.1]: }
+2025-11-17T17:27:55.963239+00:00 app[web.1]: }
+2025-11-17T17:27:55.963239+00:00 app[web.1]: ]
+2025-11-17T17:27:55.963239+00:00 app[web.1]: }
+2025-11-17T17:27:55.963669+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=2f6c1413-f475-e536-e95e-06740be8965a fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:27:55.994947+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-17T17:27:55.995003+00:00 app[web.1]: [Function: header]
+2025-11-17T17:27:55.995040+00:00 app[web.1]: {
+2025-11-17T17:27:55.995040+00:00 app[web.1]: "live": "false",
+2025-11-17T17:27:55.995040+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:27:55.995040+00:00 app[web.1]: {
+2025-11-17T17:27:55.995041+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:27:55.995041+00:00 app[web.1]: "additionalData": {
+2025-11-17T17:27:55.995041+00:00 app[web.1]: "hmacSignature": "ae6tXpef0GOfOUtSet240anUFnhh0YZBzVnEkemWlSo="
+2025-11-17T17:27:55.995042+00:00 app[web.1]: },
+2025-11-17T17:27:55.995042+00:00 app[web.1]: "amount": {
+2025-11-17T17:27:55.995042+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:27:55.995042+00:00 app[web.1]: "value": 0
+2025-11-17T17:27:55.995042+00:00 app[web.1]: },
+2025-11-17T17:27:55.995043+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:27:55.995043+00:00 app[web.1]: "eventDate": "2025-11-17T18:27:18+01:00",
+2025-11-17T17:27:55.995043+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-17T17:27:55.995044+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:27:55.995044+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.995045+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/received_payments_report_2025_11_17.csv",
+2025-11-17T17:27:55.995045+00:00 app[web.1]: "success": "true"
+2025-11-17T17:27:55.995045+00:00 app[web.1]: }
+2025-11-17T17:27:55.995045+00:00 app[web.1]: }
+2025-11-17T17:27:55.995046+00:00 app[web.1]: ]
+2025-11-17T17:27:55.995046+00:00 app[web.1]: }
+2025-11-17T17:27:55.995581+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=26d17411-55a0-69b3-50af-016b66c22b2a fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:35:20.933474+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T17:35:20.933492+00:00 app[web.1]: [Function: header]
+2025-11-17T17:35:20.933528+00:00 app[web.1]: {
+2025-11-17T17:35:20.933528+00:00 app[web.1]: "live": "true",
+2025-11-17T17:35:20.933529+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:35:20.933529+00:00 app[web.1]: {
+2025-11-17T17:35:20.933530+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:35:20.933530+00:00 app[web.1]: "amount": {
+2025-11-17T17:35:20.933530+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:35:20.933530+00:00 app[web.1]: "value": 0
+2025-11-17T17:35:20.933531+00:00 app[web.1]: },
+2025-11-17T17:35:20.933531+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:35:20.933533+00:00 app[web.1]: "eventDate": "2025-11-17T18:35:04+01:00",
+2025-11-17T17:35:20.933533+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T17:35:20.933534+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:35:20.933534+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:20.933536+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:20.933536+00:00 app[web.1]: "success": "true"
+2025-11-17T17:35:20.933536+00:00 app[web.1]: }
+2025-11-17T17:35:20.933536+00:00 app[web.1]: }
+2025-11-17T17:35:20.933536+00:00 app[web.1]: ]
+2025-11-17T17:35:20.933537+00:00 app[web.1]: }
+2025-11-17T17:35:20.934044+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=954ebcd0-ded6-619e-e2c1-dc0c897609a6 fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:35:21.293683+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T17:35:21.293830+00:00 app[web.1]: [Function: header]
+2025-11-17T17:35:21.293860+00:00 app[web.1]: {
+2025-11-17T17:35:21.293860+00:00 app[web.1]: "live": "true",
+2025-11-17T17:35:21.293860+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:35:21.293861+00:00 app[web.1]: {
+2025-11-17T17:35:21.293861+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:35:21.293861+00:00 app[web.1]: "amount": {
+2025-11-17T17:35:21.293862+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:35:21.293862+00:00 app[web.1]: "value": 0
+2025-11-17T17:35:21.293862+00:00 app[web.1]: },
+2025-11-17T17:35:21.293862+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:35:21.293866+00:00 app[web.1]: "eventDate": "2025-11-17T18:35:04+01:00",
+2025-11-17T17:35:21.293866+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-17T17:35:21.293867+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:35:21.293868+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.293877+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.293878+00:00 app[web.1]: "success": "true"
+2025-11-17T17:35:21.293878+00:00 app[web.1]: }
+2025-11-17T17:35:21.293878+00:00 app[web.1]: }
+2025-11-17T17:35:21.293878+00:00 app[web.1]: ]
+2025-11-17T17:35:21.293879+00:00 app[web.1]: }
+2025-11-17T17:35:21.294496+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=13f57123-634e-f166-c37e-76c70f14459e fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:35:21.426896+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T17:35:21.426937+00:00 app[web.1]: [Function: header]
+2025-11-17T17:35:21.426958+00:00 app[web.1]: {
+2025-11-17T17:35:21.426958+00:00 app[web.1]: "live": "true",
+2025-11-17T17:35:21.426958+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:35:21.426959+00:00 app[web.1]: {
+2025-11-17T17:35:21.426959+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:35:21.426959+00:00 app[web.1]: "amount": {
+2025-11-17T17:35:21.426959+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:35:21.426960+00:00 app[web.1]: "value": 0
+2025-11-17T17:35:21.426960+00:00 app[web.1]: },
+2025-11-17T17:35:21.426960+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:35:21.426960+00:00 app[web.1]: "eventDate": "2025-11-17T18:35:04+01:00",
+2025-11-17T17:35:21.426961+00:00 app[web.1]: "merchantAccountCode": "PME_POS_JP",
+2025-11-17T17:35:21.426961+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:35:21.426962+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.426963+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_POS_JP/received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.426963+00:00 app[web.1]: "success": "true"
+2025-11-17T17:35:21.426963+00:00 app[web.1]: }
+2025-11-17T17:35:21.426963+00:00 app[web.1]: }
+2025-11-17T17:35:21.426964+00:00 app[web.1]: ]
+2025-11-17T17:35:21.426964+00:00 app[web.1]: }
+2025-11-17T17:35:21.427525+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=a997c654-cacf-5d55-3c06-04a8427a800a fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T17:35:21.737475+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-17T17:35:21.737511+00:00 app[web.1]: [Function: header]
+2025-11-17T17:35:21.737540+00:00 app[web.1]: {
+2025-11-17T17:35:21.737540+00:00 app[web.1]: "live": "true",
+2025-11-17T17:35:21.737540+00:00 app[web.1]: "notificationItems": [
+2025-11-17T17:35:21.737541+00:00 app[web.1]: {
+2025-11-17T17:35:21.737541+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-17T17:35:21.737542+00:00 app[web.1]: "amount": {
+2025-11-17T17:35:21.737542+00:00 app[web.1]: "currency": "EUR",
+2025-11-17T17:35:21.737542+00:00 app[web.1]: "value": 0
+2025-11-17T17:35:21.737542+00:00 app[web.1]: },
+2025-11-17T17:35:21.737543+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-17T17:35:21.737543+00:00 app[web.1]: "eventDate": "2025-11-17T18:35:04+01:00",
+2025-11-17T17:35:21.737543+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-17T17:35:21.737544+00:00 app[web.1]: "merchantReference": "",
+2025-11-17T17:35:21.737544+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.737545+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/received_payments_report_2025_11_17.csv",
+2025-11-17T17:35:21.737545+00:00 app[web.1]: "success": "true"
+2025-11-17T17:35:21.737545+00:00 app[web.1]: }
+2025-11-17T17:35:21.737545+00:00 app[web.1]: }
+2025-11-17T17:35:21.737545+00:00 app[web.1]: ]
+2025-11-17T17:35:21.737545+00:00 app[web.1]: }
+2025-11-17T17:35:21.737932+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=93b97be8-0044-e232-ec4c-047d7951445f fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-17T18:07:46.101542+00:00 heroku[web.1]: Idling
+2025-11-17T18:07:46.103774+00:00 heroku[web.1]: State changed from up to down
+2025-11-17T18:07:46.762156+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-17T18:07:46.847432+00:00 heroku[web.1]: Process exited with status 143
+2025-11-18T00:34:11.633302+00:00 heroku[web.1]: Unidling
+2025-11-18T00:34:11.688617+00:00 heroku[web.1]: State changed from down to starting
+2025-11-18T00:34:13.667652+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-18T00:34:14.570167+00:00 app[web.1]: 
+2025-11-18T00:34:14.570190+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-18T00:34:14.570191+00:00 app[web.1]: > node index.js
+2025-11-18T00:34:14.570191+00:00 app[web.1]: 
+2025-11-18T00:34:14.669843+00:00 app[web.1]: Listening over 24912
+2025-11-18T00:34:14.768457+00:00 heroku[web.1]: State changed from starting to up
+2025-11-18T00:34:15.286191+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-18T00:34:15.287046+00:00 app[web.1]: [Function: header]
+2025-11-18T00:34:15.287100+00:00 app[web.1]: {
+2025-11-18T00:34:15.287100+00:00 app[web.1]: "live": "false",
+2025-11-18T00:34:15.287100+00:00 app[web.1]: "notificationItems": [
+2025-11-18T00:34:15.287101+00:00 app[web.1]: {
+2025-11-18T00:34:15.287101+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T00:34:15.287101+00:00 app[web.1]: "additionalData": {
+2025-11-18T00:34:15.287102+00:00 app[web.1]: "hmacSignature": "KsUxqMF85MSFJz3YHgBtvb5fnpxTs15axOGaOvsaTIk="
+2025-11-18T00:34:15.287102+00:00 app[web.1]: },
+2025-11-18T00:34:15.287102+00:00 app[web.1]: "amount": {
+2025-11-18T00:34:15.287103+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T00:34:15.287103+00:00 app[web.1]: "value": 0
+2025-11-18T00:34:15.287103+00:00 app[web.1]: },
+2025-11-18T00:34:15.287103+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T00:34:15.287105+00:00 app[web.1]: "eventDate": "2025-11-18T01:31:49+01:00",
+2025-11-18T00:34:15.287105+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-18T00:34:15.287105+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T00:34:15.287105+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_13.csv",
+2025-11-18T00:34:15.287106+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/payments_accounting_report_2025_11_13.csv",
+2025-11-18T00:34:15.287106+00:00 app[web.1]: "success": "true"
+2025-11-18T00:34:15.287106+00:00 app[web.1]: }
+2025-11-18T00:34:15.287106+00:00 app[web.1]: }
+2025-11-18T00:34:15.287106+00:00 app[web.1]: ]
+2025-11-18T00:34:15.287107+00:00 app[web.1]: }
+2025-11-18T00:34:15.289460+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=e97a2926-6e3a-fe51-8340-b44b950b44ca fwd="147.12.16.12" dyno=web.1 connect=3651ms service=12ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T00:34:15.377872+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-18T00:34:15.377923+00:00 app[web.1]: [Function: header]
+2025-11-18T00:34:15.377960+00:00 app[web.1]: {
+2025-11-18T00:34:15.377960+00:00 app[web.1]: "live": "false",
+2025-11-18T00:34:15.377960+00:00 app[web.1]: "notificationItems": [
+2025-11-18T00:34:15.377961+00:00 app[web.1]: {
+2025-11-18T00:34:15.377961+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T00:34:15.377961+00:00 app[web.1]: "additionalData": {
+2025-11-18T00:34:15.377962+00:00 app[web.1]: "hmacSignature": "2AJ9TCyVraQl2gal/pOELlNDz3LBzi8cKIYaWsqSeSw="
+2025-11-18T00:34:15.377962+00:00 app[web.1]: },
+2025-11-18T00:34:15.377962+00:00 app[web.1]: "amount": {
+2025-11-18T00:34:15.377963+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T00:34:15.377963+00:00 app[web.1]: "value": 0
+2025-11-18T00:34:15.377963+00:00 app[web.1]: },
+2025-11-18T00:34:15.377963+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T00:34:15.377964+00:00 app[web.1]: "eventDate": "2025-11-18T01:32:13+01:00",
+2025-11-18T00:34:15.377964+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-18T00:34:15.377964+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T00:34:15.377964+00:00 app[web.1]: "pspReference": "payments_accounting_report_2025_11_14.csv",
+2025-11-18T00:34:15.377965+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/payments_accounting_report_2025_11_14.csv",
+2025-11-18T00:34:15.377965+00:00 app[web.1]: "success": "true"
+2025-11-18T00:34:15.377965+00:00 app[web.1]: }
+2025-11-18T00:34:15.377965+00:00 app[web.1]: }
+2025-11-18T00:34:15.377965+00:00 app[web.1]: ]
+2025-11-18T00:34:15.377965+00:00 app[web.1]: }
+2025-11-18T00:34:15.378375+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=dd43ba4c-6f78-9dde-5843-3dcf56ba7657 fwd="147.12.16.12" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T01:06:50.089818+00:00 heroku[web.1]: Idling
+2025-11-18T01:06:50.092800+00:00 heroku[web.1]: State changed from up to down
+2025-11-18T01:06:50.775252+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-18T01:06:50.843016+00:00 heroku[web.1]: Process exited with status 143
+2025-11-18T02:19:40.502794+00:00 heroku[web.1]: Unidling
+2025-11-18T02:19:40.555322+00:00 heroku[web.1]: State changed from down to starting
+2025-11-18T02:19:42.664594+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-18T02:19:43.563244+00:00 app[web.1]: 
+2025-11-18T02:19:43.563269+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-18T02:19:43.563270+00:00 app[web.1]: > node index.js
+2025-11-18T02:19:43.563270+00:00 app[web.1]: 
+2025-11-18T02:19:43.659894+00:00 app[web.1]: Listening over 55754
+2025-11-18T02:19:43.725919+00:00 heroku[web.1]: State changed from starting to up
+2025-11-18T02:19:45.639390+00:00 app[web.1]: Request IP: 147.12.16.11
+2025-11-18T02:19:45.640302+00:00 app[web.1]: [Function: header]
+2025-11-18T02:19:45.640369+00:00 app[web.1]: {
+2025-11-18T02:19:45.640370+00:00 app[web.1]: "live": "false",
+2025-11-18T02:19:45.640370+00:00 app[web.1]: "notificationItems": [
+2025-11-18T02:19:45.640370+00:00 app[web.1]: {
+2025-11-18T02:19:45.640371+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T02:19:45.640371+00:00 app[web.1]: "amount": {
+2025-11-18T02:19:45.640372+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T02:19:45.640372+00:00 app[web.1]: "value": 0
+2025-11-18T02:19:45.640372+00:00 app[web.1]: },
+2025-11-18T02:19:45.640372+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T02:19:45.640373+00:00 app[web.1]: "eventDate": "2025-11-18T03:18:22+01:00",
+2025-11-18T02:19:45.640373+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwao",
+2025-11-18T02:19:45.640374+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T02:19:45.640375+00:00 app[web.1]: "pspReference": "received_payments_report_2025_11_17.csv",
+2025-11-18T02:19:45.640376+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwao/received_payments_report_2025_11_17.csv",
+2025-11-18T02:19:45.640376+00:00 app[web.1]: "success": "true"
+2025-11-18T02:19:45.640376+00:00 app[web.1]: }
+2025-11-18T02:19:45.640376+00:00 app[web.1]: }
+2025-11-18T02:19:45.640377+00:00 app[web.1]: ]
+2025-11-18T02:19:45.640377+00:00 app[web.1]: }
+2025-11-18T02:19:45.642746+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=20ba7ed6-6aca-77ee-c447-a73264d5973e fwd="147.12.16.11" dyno=web.1 connect=5133ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T02:55:16.534434+00:00 heroku[web.1]: Idling
+2025-11-18T02:55:16.536945+00:00 heroku[web.1]: State changed from up to down
+2025-11-18T02:55:17.141060+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-18T02:55:17.206087+00:00 heroku[web.1]: Process exited with status 143
+2025-11-18T03:04:14.534876+00:00 heroku[web.1]: Unidling
+2025-11-18T03:04:14.587984+00:00 heroku[web.1]: State changed from down to starting
+2025-11-18T03:04:16.605589+00:00 heroku[web.1]: Starting process with command `npm start`
+2025-11-18T03:04:17.535483+00:00 app[web.1]: 
+2025-11-18T03:04:17.535506+00:00 app[web.1]: > node-js-getting-started@0.3.0 start
+2025-11-18T03:04:17.535506+00:00 app[web.1]: > node index.js
+2025-11-18T03:04:17.535507+00:00 app[web.1]: 
+2025-11-18T03:04:17.631963+00:00 app[web.1]: Listening over 14005
+2025-11-18T03:04:17.709808+00:00 heroku[web.1]: State changed from starting to up
+2025-11-18T03:04:19.681795+00:00 app[web.1]: Request IP: 147.12.16.12
+2025-11-18T03:04:19.682703+00:00 app[web.1]: [Function: header]
+2025-11-18T03:04:19.682763+00:00 app[web.1]: {
+2025-11-18T03:04:19.682763+00:00 app[web.1]: "live": "false",
+2025-11-18T03:04:19.682764+00:00 app[web.1]: "notificationItems": [
+2025-11-18T03:04:19.682764+00:00 app[web.1]: {
+2025-11-18T03:04:19.682765+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T03:04:19.682766+00:00 app[web.1]: "additionalData": {
+2025-11-18T03:04:19.682767+00:00 app[web.1]: "hmacSignature": "Z9JKwarAe8zBG/DMGCJSy73QSO/P1lNoHQqM94jYusg="
+2025-11-18T03:04:19.682767+00:00 app[web.1]: },
+2025-11-18T03:04:19.682768+00:00 app[web.1]: "amount": {
+2025-11-18T03:04:19.682768+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T03:04:19.682768+00:00 app[web.1]: "value": 0
+2025-11-18T03:04:19.682768+00:00 app[web.1]: },
+2025-11-18T03:04:19.682768+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T03:04:19.682769+00:00 app[web.1]: "eventDate": "2025-11-18T04:03:25+01:00",
+2025-11-18T03:04:19.682769+00:00 app[web.1]: "merchantAccountCode": "NobuyaIwaoCOM",
+2025-11-18T03:04:19.682770+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T03:04:19.682770+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:04:19.682771+00:00 app[web.1]: "reason": "https://ca-test.adyen.com/reports/download/MerchantAccount/NobuyaIwaoCOM/exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:04:19.682771+00:00 app[web.1]: "success": "true"
+2025-11-18T03:04:19.682771+00:00 app[web.1]: }
+2025-11-18T03:04:19.682771+00:00 app[web.1]: }
+2025-11-18T03:04:19.682771+00:00 app[web.1]: ]
+2025-11-18T03:04:19.682771+00:00 app[web.1]: }
+2025-11-18T03:04:19.685463+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=8898a59b-617a-7567-f736-63b363545e02 fwd="147.12.16.12" dyno=web.1 connect=5143ms service=13ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T03:09:09.642382+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-18T03:09:09.642468+00:00 app[web.1]: [Function: header]
+2025-11-18T03:09:09.642512+00:00 app[web.1]: {
+2025-11-18T03:09:09.642512+00:00 app[web.1]: "live": "true",
+2025-11-18T03:09:09.642512+00:00 app[web.1]: "notificationItems": [
+2025-11-18T03:09:09.642513+00:00 app[web.1]: {
+2025-11-18T03:09:09.642514+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T03:09:09.642514+00:00 app[web.1]: "amount": {
+2025-11-18T03:09:09.642514+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T03:09:09.642514+00:00 app[web.1]: "value": 0
+2025-11-18T03:09:09.642515+00:00 app[web.1]: },
+2025-11-18T03:09:09.642515+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T03:09:09.642516+00:00 app[web.1]: "eventDate": "2025-11-18T04:08:53+01:00",
+2025-11-18T03:09:09.642516+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-18T03:09:09.642517+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T03:09:09.642518+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:09.642519+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:09.642519+00:00 app[web.1]: "success": "true"
+2025-11-18T03:09:09.642520+00:00 app[web.1]: }
+2025-11-18T03:09:09.642520+00:00 app[web.1]: }
+2025-11-18T03:09:09.642520+00:00 app[web.1]: ]
+2025-11-18T03:09:09.642520+00:00 app[web.1]: }
+2025-11-18T03:09:09.643022+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=90973c26-2a1e-39a5-a33a-547fc3f23185 fwd="82.199.90.162" dyno=web.1 connect=0ms service=2ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T03:09:09.893685+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-18T03:09:09.893832+00:00 app[web.1]: [Function: header]
+2025-11-18T03:09:09.893876+00:00 app[web.1]: {
+2025-11-18T03:09:09.893876+00:00 app[web.1]: "live": "true",
+2025-11-18T03:09:09.893877+00:00 app[web.1]: "notificationItems": [
+2025-11-18T03:09:09.893877+00:00 app[web.1]: {
+2025-11-18T03:09:09.893878+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T03:09:09.893878+00:00 app[web.1]: "amount": {
+2025-11-18T03:09:09.893879+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T03:09:09.893879+00:00 app[web.1]: "value": 0
+2025-11-18T03:09:09.893879+00:00 app[web.1]: },
+2025-11-18T03:09:09.893879+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T03:09:09.893880+00:00 app[web.1]: "eventDate": "2025-11-18T04:08:53+01:00",
+2025-11-18T03:09:09.893881+00:00 app[web.1]: "merchantAccountCode": "NobuyaCOM",
+2025-11-18T03:09:09.893881+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T03:09:09.893882+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:09.893883+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/NobuyaCOM/exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:09.893883+00:00 app[web.1]: "success": "true"
+2025-11-18T03:09:09.893883+00:00 app[web.1]: }
+2025-11-18T03:09:09.893883+00:00 app[web.1]: }
+2025-11-18T03:09:09.893884+00:00 app[web.1]: ]
+2025-11-18T03:09:09.893884+00:00 app[web.1]: }
+2025-11-18T03:09:09.894452+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=ac1c0319-d18f-54e8-9dfe-f765fd9dcdf0 fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T03:09:10.581520+00:00 app[web.1]: Request IP: 82.199.90.162
+2025-11-18T03:09:10.581571+00:00 app[web.1]: [Function: header]
+2025-11-18T03:09:10.581600+00:00 app[web.1]: {
+2025-11-18T03:09:10.581600+00:00 app[web.1]: "live": "true",
+2025-11-18T03:09:10.581600+00:00 app[web.1]: "notificationItems": [
+2025-11-18T03:09:10.581601+00:00 app[web.1]: {
+2025-11-18T03:09:10.581601+00:00 app[web.1]: "NotificationRequestItem": {
+2025-11-18T03:09:10.581601+00:00 app[web.1]: "amount": {
+2025-11-18T03:09:10.581602+00:00 app[web.1]: "currency": "EUR",
+2025-11-18T03:09:10.581602+00:00 app[web.1]: "value": 0
+2025-11-18T03:09:10.581602+00:00 app[web.1]: },
+2025-11-18T03:09:10.581602+00:00 app[web.1]: "eventCode": "REPORT_AVAILABLE",
+2025-11-18T03:09:10.581605+00:00 app[web.1]: "eventDate": "2025-11-18T04:08:53+01:00",
+2025-11-18T03:09:10.581605+00:00 app[web.1]: "merchantAccountCode": "PME_ECOM_JP",
+2025-11-18T03:09:10.581606+00:00 app[web.1]: "merchantReference": "",
+2025-11-18T03:09:10.581607+00:00 app[web.1]: "pspReference": "exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:10.581618+00:00 app[web.1]: "reason": "https://ca-live.adyen.com/reports/download/MerchantAccount/PME_ECOM_JP/exchange_rate_report_2025_11_17.csv",
+2025-11-18T03:09:10.581618+00:00 app[web.1]: "success": "true"
+2025-11-18T03:09:10.581618+00:00 app[web.1]: }
+2025-11-18T03:09:10.581618+00:00 app[web.1]: }
+2025-11-18T03:09:10.581618+00:00 app[web.1]: ]
+2025-11-18T03:09:10.581618+00:00 app[web.1]: }
+2025-11-18T03:09:10.582044+00:00 heroku[router]: at=info method=POST path="/listener" host=webhook-shuriken.herokuapp.com request_id=c25133ec-13a2-3fd4-0892-18b99f141ee5 fwd="82.199.90.162" dyno=web.1 connect=0ms service=1ms status=200 bytes=10 protocol=http1.1 tls=true tls_version=unknown
+2025-11-18T03:42:47.422446+00:00 heroku[web.1]: Idling
+2025-11-18T03:42:47.480419+00:00 heroku[web.1]: State changed from up to down
+2025-11-18T03:42:48.111247+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2025-11-18T03:42:48.183261+00:00 heroku[web.1]: Process exited with status 143
+2025-11-18T07:15:02.790120+00:00 app[api]: Log session created by user nobuyaiwao@gmail.com
+2025-11-18T07:15:28.775101+00:00 app[api]: Log session created by user nobuyaiwao@gmail.com
+2025-11-18T07:15:51.338253+00:00 app[api]: Log session created by user nobuyaiwao@gmail.com

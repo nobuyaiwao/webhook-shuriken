@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adyen Webhook Viewer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Adyen Webhook Viewer</h1>
+        <button id="refresh-button">Refresh</button>
+    </header>
+
+    <section class="filter-panel">
+        <label>
+            Environment
+            <select id="environment-filter">
+                <option value="">ALL</option>
+            </select>
+        </label>
+
+        <label>
+            Merchant Account
+            <select id="merchant-filter">
+                <option value="">ALL</option>
+            </select>
+        </label>
+
+        <label>
+            Event Code
+            <select id="event-code-filter">
+                <option value="">ALL</option>
+            </select>
+        </label>
+
+        <button id="clear-filter-button">Clear</button>
+    </section>
+
+    <main>
+        <section class="list-panel">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Received</th>
+                        <th>Env</th>
+                        <th>Merchant</th>
+                        <th>Event</th>
+                        <th>PSP Reference</th>
+                        <th>Success</th>
+                    </tr>
+                </thead>
+                <tbody id="webhook-list"></tbody>
+            </table>
+        </section>
+
+        <section class="detail-panel">
+            <h2>Detail</h2>
+            <pre><code id="webhook-detail"></code></pre>
+        </section>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
