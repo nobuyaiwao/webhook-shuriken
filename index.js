@@ -8,6 +8,9 @@ const PORT = process.env.PORT || 3000;
 
 const app = express();
 
+const DATA_DIR = path.join(__dirname, 'data');
+const WEBHOOK_LOG_FILE = path.join(DATA_DIR, 'webhooks.jsonl');
+
 const WEBHOOK_TTL_MS = 14 * 24 * 60 * 60 * 1000;
 const MAX_WEBHOOKS = 5000;
 const webhookStore = [];
