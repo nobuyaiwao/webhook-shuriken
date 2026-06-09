@@ -17,6 +17,19 @@ const webhookStore = [];
 
 app.use(bodyParser.json());
 
+// Webhook Restore Data in logs
+const WEBHOOK_RESTORE_LOG_PREFIX = 'WEBHOOK_RESTORE';
+function logWebhookRecord(webhook) {
+    try {
+        console.log(
+            `${WEBHOOK_RESTORE_LOG_PREFIX} ${JSON.stringify(webhook)}`
+        );
+    } catch (err) {
+        console.error('Failed to write webhook restore log:', err);
+    }
+}
+
+// Extract Webhooks Summary
 function extractWebhookSummary(body) {
     const item = body?.notificationItems?.[0]?.NotificationRequestItem || {};
 
@@ -35,6 +48,7 @@ function extractWebhookSummary(body) {
     };
 }
 
+// Clean up WebhookStore
 function cleanupWebhookStore() {
     const cutoff = Date.now() - WEBHOOK_TTL_MS;
 
@@ -51,7 +65,9 @@ function cleanupWebhookStore() {
     }
 }
 
-function addWebhook({ body, headers, ip }) {
+// Add Webhooks
+//function addWebhook({ body, headers, ip }) {
+function addWebhook({ body, ip }) {
     const summary = extractWebhookSummary(body);
 
     const webhook = {
@@ -59,11 +75,12 @@ function addWebhook({ body, headers, ip }) {
         receivedAt: new Date().toISOString(),
         ip,
         ...summary,
-        headers,
+        //headers,
         body
     };
 
     webhookStore.unshift(webhook);
+    logWebhookRecord(webhook);
     cleanupWebhookStore();
 
     return webhook;
@@ -76,13 +93,13 @@ app.post('/listener', listenerAuth, function(req, res) {
 
     addWebhook({
         body: req.body,
-        headers: req.headers,
+        //headers: req.headers,
         ip
     });
 
 //   console.log(`Request IP: ${ip}`);
 //   console.log(JSON.stringify(req.body, null, '   '));
-    console.log(`WEBHOOK_RESTORE ${JSON.stringify(record)}`);
+//    console.log(`WEBHOOK_RESTORE ${JSON.stringify(record)}`);
 
     res.send('[accepted]');
 });
