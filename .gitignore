@@ -7,6 +7,9 @@ npm-debug.log
 *.dev
 .DS_Store
 
+# Tool
+./tool/restore.jsonl
+
 # Docker
 Dockerfile
 docker-compose.yml

@@ -162,6 +162,49 @@ app.get('/api/webhooks/:id', viewerAuth, function(req, res) {
     res.json(webhook);
 });
 
+app.post('/api/webhooks/load', viewerAuth, express.text({ type: '*/*', limit: '10mb' }), (req, res) => {
+    const lines = req.body
+        .split('\n')
+        .map(line => line.trim())
+        .filter(Boolean);
+
+    let loaded = 0;
+    let skipped = 0;
+
+    for (const line of lines) {
+        try {
+            const webhook = JSON.parse(line);
+
+            if (!webhook.id) {
+                skipped++;
+                continue;
+            }
+
+            const exists = webhookStore.some(item => item.id === webhook.id);
+
+            if (exists) {
+                skipped++;
+                continue;
+            }
+
+            webhookStore.push(webhook);
+            loaded++;
+        } catch (err) {
+            skipped++;
+        }
+    }
+
+    webhookStore.sort((a, b) => new Date(b.receivedAt) - new Date(a.receivedAt));
+    cleanupWebhookStore();
+
+    res.json({
+        result: 'ok',
+        loaded,
+        skipped,
+        total: webhookStore.length
+    });
+});
+
 app.use(viewerAuth);
 app.use(express.static(path.join(__dirname, 'public')));
 
