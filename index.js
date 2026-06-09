@@ -72,7 +72,7 @@ function addWebhook({ body, headers, ip }) {
 setInterval(cleanupWebhookStore, 60 * 60 * 1000);
 
 app.post('/listener', listenerAuth, function(req, res) {
-    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
+//    const ip = req.headers['x-forwarded-for'] || req.connection.remoteAddress;
 
     addWebhook({
         body: req.body,
@@ -80,8 +80,9 @@ app.post('/listener', listenerAuth, function(req, res) {
         ip
     });
 
-    console.log(`Request IP: ${ip}`);
-    console.log(JSON.stringify(req.body, null, '   '));
+//   console.log(`Request IP: ${ip}`);
+//    console.log(JSON.stringify(req.body, null, '   '));
+    console.log(`WEBHOOK_RESTORE ${JSON.stringify(record)}`);
 
     res.send('[accepted]');
 });
