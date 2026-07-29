@@ -1,15 +1,19 @@
-# Node build artifacts
-node_modules
-npm-debug.log
+# Dependencies and Node artifacts
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# Local development
-*.env
+# Local environment and machine files
+.env
+.env.*
+!.env.example
 *.dev
 .DS_Store
 
-# Tool
-./tool/restore.jsonl
+# Sensitive local webhook data and exports
+tool/restore.jsonl
+logs/
 
-# Docker
-Dockerfile
-docker-compose.yml
+# Local runtime data, if enabled later
+data/
