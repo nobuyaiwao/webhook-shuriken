@@ -77,13 +77,16 @@ function renderWebhookList(webhooks) {
 
     webhooks.forEach(webhook => {
         const row = document.createElement('tr');
+        const pspReference = webhook.eventCode === 'REPORT_AVAILABLE'
+            ? ''
+            : webhook.pspReference || '';
 
         row.innerHTML = `
-            <td>${webhook.receivedAt || ''}</td>
+            <td>${webhook.eventDate || ''}</td>
             <td>${webhook.environment || ''}</td>
             <td>${webhook.merchantAccount || ''}</td>
             <td>${webhook.eventCode || ''}</td>
-            <td>${webhook.pspReference || ''}</td>
+            <td>${pspReference}</td>
             <td>${webhook.success || ''}</td>
         `;
 

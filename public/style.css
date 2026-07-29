@@ -1,8 +1,16 @@
+html,
+body {
+    height: 100%;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f6f7f9;
     color: #222;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 }
 
 header {
@@ -12,6 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 0 0 auto;
 }
 
 h1 {
@@ -34,6 +43,7 @@ select {
     gap: 16px;
     align-items: end;
     flex-wrap: wrap;
+    flex: 0 0 auto;
 }
 
 label {
@@ -49,6 +59,8 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
     padding: 0 16px 16px;
+    flex: 1;
+    min-height: 0;
 }
 
 section {
@@ -56,6 +68,7 @@ section {
     border-radius: 8px;
     padding: 16px;
     overflow: auto;
+    min-height: 0;
 }
 
 table {
@@ -90,8 +103,8 @@ pre {
     color: #e5e7eb;
     padding: 16px;
     border-radius: 8px;
-    overflow: auto;
-    max-height: 75vh;
+    overflow-x: auto;
+    max-height: none;
 }
 
 .json-key {

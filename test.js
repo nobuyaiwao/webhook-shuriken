@@ -3,26 +3,59 @@ const got = require('got');
 const test = require('tape');
 
 // Start the app
-const env = Object.assign({}, process.env, {PORT: 5000});
+const env = Object.assign({}, process.env, {
+  PORT: 5000,
+  LISTENER_USERNAME: 'listener',
+  LISTENER_PASSWORD: 'listener-password',
+  VIEWER_USERNAME: 'viewer',
+  VIEWER_PASSWORD: 'viewer-password'
+});
 const child = spawn('node', ['index.js'], {env});
 
-test('responds to requests', (t) => {
-  t.plan(4);
+test('serves the viewer and summarizes recurring token webhooks', (t) => {
+  child.stdout.once('data', async () => {
+    try {
+      const response = await got('http://127.0.0.1:5000', {
+        username: 'viewer',
+        password: 'viewer-password'
+      });
 
-  // Wait until the server is ready
-  child.stdout.on('data', _ => {
-    // Make a request to our app
-    (async () => {
-      const response = await got('http://127.0.0.1:5000');
-      // stop the server
-      child.kill();
-      // No error
-      t.false(response.error);
-      // Successful response
       t.equal(response.statusCode, 200);
-      // Assert content checks
-      t.notEqual(response.body.indexOf("<title>Node.js Getting Started on Heroku</title>"), -1);
-      t.notEqual(response.body.indexOf("Getting Started on Heroku with Node.js"), -1);
-    })();
+      t.notEqual(response.body.indexOf('<title>Adyen Webhook Viewer</title>'), -1);
+      t.notEqual(response.body.indexOf('<h1>Adyen Webhook Viewer</h1>'), -1);
+
+      const webhook = {
+        createdAt: '2026-07-28T08:03:35+02:00',
+        environment: 'test',
+        type: 'recurring.token.created',
+        data: {
+          merchantAccount: 'NobuyaIwaoCOM'
+        },
+        eventId: 'KHM36NDM6KFJCK75'
+      };
+      const listenerResponse = await got.post('http://127.0.0.1:5000/listener', {
+        username: 'listener',
+        password: 'listener-password',
+        json: webhook
+      });
+      const webhooksResponse = await got('http://127.0.0.1:5000/api/webhooks', {
+        username: 'viewer',
+        password: 'viewer-password',
+        responseType: 'json'
+      });
+      const [summary] = webhooksResponse.body;
+
+      t.equal(listenerResponse.body, '[accepted]');
+      t.equal(summary.eventDate, webhook.createdAt);
+      t.equal(summary.environment, webhook.environment);
+      t.equal(summary.eventCode, webhook.type);
+      t.equal(summary.merchantAccount, webhook.data.merchantAccount);
+      t.equal(summary.pspReference, webhook.eventId);
+    } catch (err) {
+      t.error(err);
+    } finally {
+      child.kill();
+      t.end();
+    }
   });
 });

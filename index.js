@@ -31,6 +31,22 @@ function logWebhookRecord(webhook) {
 
 // Extract Webhooks Summary
 function extractWebhookSummary(body) {
+    if (body?.type?.startsWith('recurring.token.')) {
+        return {
+            environment: body.environment || '',
+            merchantAccount: body.data?.merchantAccount || '',
+            eventCode: body.type,
+            eventDate: body.createdAt || '',
+            pspReference: body.eventId || '',
+            originalReference: '',
+            merchantReference: '',
+            paymentMethod: '',
+            success: '',
+            amountCurrency: '',
+            amountValue: ''
+        };
+    }
+
     const item = body?.notificationItems?.[0]?.NotificationRequestItem || {};
 
     return {
